@@ -1,18 +1,14 @@
 class Solution:
     def selfDivisiblePermutationCount(self, n: int) -> int:
-        ret = 0
-        nums = [i for i in range(1,n+1)]
-        def dfs(cur,idx):
-            nonlocal ret 
-            if idx == n+1:
-                ret += 1
-                return
-            for num in nums:
-                # chose jth element in avail, add to cur 
-                if num not in cur and gcd(num, idx)==1:
-                    dfs(cur+[num], idx+1)
-                
-        dfs([], 1)
-        return ret
-        
-        
+        # dp[l][msk]: total number of arrays with length l, set of number is the bit pos that's set
+        # dp[n][B-1]
+        B = 1<<n
+        dp = [[0]*B for _ in range(n+1)]
+        dp[0][0]=1
+        for l in range(1,n+1):
+            for msk in range(B):
+                dp[l][msk] = 0
+                for b in range(n):
+                    if msk&(1<<b) and gcd(b+1,l)==1:
+                        dp[l][msk] += dp[l-1][msk&~(1<<b)]
+        return dp[n][B-1]
