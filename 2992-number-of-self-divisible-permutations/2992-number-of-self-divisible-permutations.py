@@ -2,17 +2,17 @@ class Solution:
     def selfDivisiblePermutationCount(self, n: int) -> int:
         ret = 0
         nums = [i for i in range(1,n+1)]
-        def dfs(i, avail, cur):
+        def dfs(cur,idx):
             nonlocal ret 
-            if i == n:
+            if idx == n+1:
                 ret += 1
                 return
-            for j in range(len(avail)):
+            for num in nums:
                 # chose jth element in avail, add to cur 
-                if gcd(avail[j], len(cur)+1)==1:
-                    dfs(i+1,avail[:j]+avail[j+1:], cur+[avail[j]])
+                if num not in cur and gcd(num, idx)==1:
+                    dfs(cur+[num], idx+1)
                 
-        dfs(0,nums,[])
+        dfs([], 1)
         return ret
         
         
