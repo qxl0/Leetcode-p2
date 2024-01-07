@@ -9,6 +9,6 @@ class Solution:
             for msk in range(B):
                 dp[l][msk] = 0
                 for b in range(n):
-                    if msk&(1<<b) and gcd(b+1,l)==1:
+                    if (msk>>b)&1==1 and gcd(b+1,l)==1:
                         dp[l][msk] += dp[l-1][msk&~(1<<b)]
         return dp[n][B-1]
