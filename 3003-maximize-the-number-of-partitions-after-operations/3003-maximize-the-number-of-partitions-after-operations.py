@@ -2,32 +2,24 @@ class Solution:
     def maxPartitionsAfterOperations(self, s: str, k: int) -> int:
         n = len(s)
         @lru_cache(None)
-        def dfs(idx,mask,canChange):
-            # return the max partitions from idx to end in string s 
-            if idx == n: return 0
-            
+        def dfs(i,mask,canchange): # max number of resulting partitions after ops on s up to i index
+            if i==n: return 1
             res = 0
-            curCharIdx = ord(s[idx])-ord('a')
-            newMask = mask | (1<<curCharIdx)
-            distinctCount = newMask.bit_count()
-            if distinctCount>k:
-                res = 1 + dfs(idx+1, 1<<curCharIdx, canChange)
+            # add ith bit
+            ichar=ord(s[i])-ord('a')
+            newmask = mask|(1<<ichar)
+            if newmask.bit_count()>k:
+                res = 1+dfs(i+1, (1<<ichar), canchange)
             else:
-                res = dfs(idx+1, newMask, canChange)
-            if canChange:
-                # try change curChar to any of the 26
-                for i in range(26):
-                    if i==curCharIdx:continue
-                    newMask = mask | (1<<i)
-                    distinctCount = newMask.bit_count()
-                    if distinctCount>k:
-                        res = max(res, 1 + dfs(idx+1,1<<i,False))
+                res = dfs(i+1, newmask, canchange)
+            if canchange:
+                # change to what???
+                for j in range(26):
+                    newmask = mask|(1<<j)
+                    if newmask.bit_count()>k:
+                        res = max(res, 1+dfs(i+1,(1<<j), False))
                     else:
-                        res = max(res, dfs(idx+1,newMask,False))
+                        res = max(res, dfs(i+1, newmask, False))
+                        
             return res
-        return dfs(0,0,True)+1
-                
-            
-                
-            
-            
+        return dfs(0,0,True)
