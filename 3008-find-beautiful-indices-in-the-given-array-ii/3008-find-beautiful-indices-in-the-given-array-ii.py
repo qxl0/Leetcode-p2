@@ -1,26 +1,26 @@
 class Solution:
     def beautifulIndices(self, s: str, a: str, b: str, k: int) -> List[int]:
-        # use kmp algorithm 
         def kmp(s):
-            dp = [0]*len(s)
-            for i in range(1,len(s)):
+            n = len(s)
+            dp = [0]*n
+            for i in range(1,n):
                 cur = dp[i-1]
-                while cur and s[i]!=s[cur]:
+                while cur and s[cur]!=s[i]:
                     cur = dp[cur-1]
-                dp[i] = cur + (s[i]==s[cur])
+                dp[i] = cur + (s[cur]==s[i])
             return dp
         v1 = kmp(a+'#'+s)
         v2 = kmp(b+'#'+s)
-        ii = [i-len(a)*2 for i,v in enumerate(v1) if v1[i]>=len(a)]
-        jj = [i-len(b)*2 for i,v in enumerate(v2) if v2[i]>=len(b)]
-        print(ii,jj)
+        al,bl = len(a),len(b)
+        ii = [i-al-al for i,v in enumerate(v1) if v>=al]
+        jj = [i-bl-bl for i,v in enumerate(v2) if v>=bl]
+        
         ret = []
-        jdx = 0
+        j = 0
         for i in ii:
-            while jdx<len(jj) and jj[jdx]<i-k:
-                jdx += 1
-            if jdx<len(jj) and jj[jdx]<=i+k:
+            while j<len(jj) and jj[j]<i-k:
+                j += 1
+            # when stop
+            if j<len(jj) and jj[j]<=i+k:
                 ret.append(i)
         return ret 
-                
-        
