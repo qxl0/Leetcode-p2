@@ -14,11 +14,12 @@ class Solution:
                 curmax = max(curmax, x)
                 if x < prevmax: return False
             else: # new section
-                if curmax>x: 
-                    return False
-                prevc = bc
                 prevmax = curmax # cache prev max 
                 curmax = x
+                if x<prevmax: 
+                    return False
+                prevc = bc
+                
         return True
                 
             
