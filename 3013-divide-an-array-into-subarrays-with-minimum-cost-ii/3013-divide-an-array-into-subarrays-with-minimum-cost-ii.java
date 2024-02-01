@@ -1,19 +1,63 @@
-from sortedcontainers import SortedList
-class Solution:
-    def minimumCost(self, nums: List[int], k: int, dist: int) -> int:
-        sl = SortedList(nums[1:dist+1])
-        n = len(nums)
-        cur,ret = sum(sl[:k-2]),float('inf')
-        for i in range(dist+1,n):
-            if sl.bisect(nums[i])<=k-2:
-                cur+=nums[i]
-            else:
-                cur+=sl[k-2]
-            ret = min(ret, cur)
-            sl.add(nums[i])
-            if sl.bisect(nums[i-dist])<=k-2:
-                cur -= nums[i-dist]
-            else:
-                cur -= sl[k-2]
-            sl.remove(nums[i-dist])
-        return ret+nums[0]
+class Solution {
+    public long minimumCost(int[] nums, int k, int dist) {
+        // windows size: dist+1
+        // look for k-1 smallest element in window
+        int n = nums.length;
+        TreeSet<Integer> using = new TreeSet<>((a,b) -> nums[a]==nums[b] ? a-b : nums[a]-nums[b]);
+        TreeSet<Integer> waiting = new TreeSet<>((a,b) -> nums[a]==nums[b] ? a-b : nums[a]-nums[b]);
+        
+        long res = Long.MAX_VALUE, curSum = 0l;
+        
+        // Add dist+1 to using
+        for (int i=1;i<=dist+1;i++)
+        {
+            using.add(i);
+            curSum += nums[i];
+        }
+        
+        // only k-1 is needed, so move larger element to waiting
+        while (using.size()>k-1){
+            int i = using.pollLast();
+            curSum -= nums[i];
+            waiting.add(i);
+        }
+        
+        res = Math.min(res, curSum);
+        
+        for (int i=1;i+dist+1<n;i++) {
+            // check i 
+            
+            waiting.add(i+dist+1);
+            
+            // window: i, ... i+dist+1
+            // remove i
+            if (using.contains(i)) {
+                curSum -= nums[i];
+                using.remove(i);
+                
+                int j = waiting.pollFirst();
+                curSum += nums[j];
+                using.add(j);
+            } else {
+                // i is not in using
+                waiting.remove(i);
+                
+                // compare 
+                int u = using.last();
+                int v = waiting.first();
+                if (nums[u]>nums[v]) {
+                    curSum -= nums[u];
+                    using.remove(u);
+                    waiting.add(u);
+                    
+                    curSum += nums[v];
+                    waiting.remove(v);
+                    using.add(v);
+                }
+            }
+            
+            res = Math.min(res, curSum);
+        }
+        return res+nums[0];
+    }
+}
