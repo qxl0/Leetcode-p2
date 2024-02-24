@@ -1,30 +1,40 @@
 public class Solution {
+    int[][] memo;
+    int m,n;
     public int MinDistance(string word1, string word2) {
-        int m = word1.Length,n=word2.Length;
-        int[][] dp = new int[m+1][];
-        for (int i=0;i<m+1;i++){
-            dp[i] = new int[n+1];
-            Array.Fill(dp[i], int.MaxValue);
+        m = word1.Length;
+        n = word2.Length;
+        memo = new int[m][];
+        for (int i=0;i<m;i++) {
+            memo[i] = new int[n];
+            Array.Fill(memo[i], int.MaxValue);
+        }
+            
+        return minDistanceRecur(word1,word2,word1.Length-1,word2.Length-1);
+    }
+
+    private int minDistanceRecur(string w1, string w2, int idx1, int idx2) {        
+        if (idx1<0) {
+            return idx2+1;
+        }
+        else if (idx2 < 0) {
+            return idx1+1;
         }
         
-        for (int i=0;i<m+1;i++) {            
-            dp[i][0]=i;
-        }
-        for (int j=0;j<n+1;j++) {
-            dp[0][j]=j;
-        }
-        for (int i=1;i<m+1;i++) {
-            for (int j=1;j<n+1;j++) {
-                if (word1[i-1]==word2[j-1])
-                    dp[i][j] = dp[i-1][j-1];
-                else {
-                    dp[i][j] = Math.Min(dp[i][j], dp[i-1][j] + 1);
-                    dp[i][j] = Math.Min(dp[i][j], dp[i][j-1] + 1);
-                    dp[i][j] = Math.Min(dp[i][j], dp[i-1][j-1] + 1);
-                }
-            }
-        }
+        if (memo[idx1][idx2]!=int.MaxValue) 
+            return memo[idx1][idx2];
 
-        return dp[m][n];
+        if (w1[idx1]!=w2[idx2]) {
+            int x = minDistanceRecur(w1,w2, idx1-1, idx2-1);
+            int y =  minDistanceRecur(w1,w2, idx1, idx2-1);
+            int z =  minDistanceRecur(w1,w2, idx1-1, idx2);
+            memo[idx1][idx2] =  Math.Min(x, Math.Min(y,z)) + 1;
+            return memo[idx1][idx2];
+        }
+        else {
+            memo[idx1][idx2] = minDistanceRecur(w1,w2,idx1-1,idx2-1);
+            return memo[idx1][idx2];
+        }
+        
     }
 }
