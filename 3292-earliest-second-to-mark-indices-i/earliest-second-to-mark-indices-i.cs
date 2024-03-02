@@ -21,18 +21,13 @@ public class Solution {
 
     private bool checkok(int mid, int[] nums, int[] changeIndices) {
         int m = nums.Length;
-        int[] last = new int[m];
-        Array.Fill(last, -1);
+        Dictionary<int,int> last = new();        
         for (int i=0;i<mid;i++) {
             last[changeIndices[i]] = i;
         }
 
-        // check if 
-        
-        for (int i=0;i<m;i++) {            
-            if (last[i] == -1) 
-                return false;
-        }
+        // check
+        if (last.Count<m) return false;
 
         int count = 0;
         for (int i=0;i<mid;i++) {
