@@ -1,40 +1,52 @@
 public class Solution {
-    int n,m;
     public int EarliestSecondToMarkIndices(int[] nums, int[] changeIndices) {
-        n = nums.Length;
-        m = changeIndices.Length;
-        int[] nums2 = new int[n+1];
-        Array.Copy(nums,0, nums2, 1, n);        
-                
-        int left = 1, right = m+1;
-        while (left<right) {
-            int mid = left+(right-left)/2;
-            if (checkok(mid, nums2, changeIndices)) 
-                right = mid;
-            else 
-                left = mid+1;
+        // convert to 0-indexed 
+        int n = changeIndices.Length;
+        for (int i=0;i<n;i++) {
+            changeIndices[i] -= 1;
         }
-        return left==m+1?-1:left;
+
+        // binary search 
+        int l=1,r = n;
+        while (l<r) {
+            int mid = l+(r-l)/2;
+
+            if (checkok(mid, nums,changeIndices))
+                r = mid;
+            else
+                l = mid+1;                
+        }
+        return checkok(l, nums,changeIndices) ? l: -1;
     }
 
-    private bool checkok(int mid, int[] nums, int[] changes) {
-        // check if mid is enough to mark all in nums2[1:n]
-        Dictionary<int,int> last = new();
+    private bool checkok(int mid, int[] nums, int[] changeIndices) {
+        int m = nums.Length;
+        int[] last = new int[m];
+        Array.Fill(last, -1);
         for (int i=0;i<mid;i++) {
-            last[changes[i]] = i;
+            last[changeIndices[i]] = i;
         }
-        if (last.Count != n) 
-            return false;
-        int cnt = 0;
+
+        // check if 
+        
+        for (int i=0;i<m;i++) {            
+            if (last[i] == -1) 
+                return false;
+        }
+
+        int count = 0;
         for (int i=0;i<mid;i++) {
-            // if it's last time we visit i
-            if (i==last[changes[i]]) {
-                if (cnt<nums[changes[i]]) return false;
-                else cnt -= nums[changes[i]];
+            int idx = changeIndices[i];
+            if (i!=last[idx]) {
+                count += 1;
             }
-            else 
-                cnt += 1;
+            else {
+                // have to mark
+                count -= nums[idx];
+                if (count<0) return false;
+            }
         }
+
         return true;
     }
 }
