@@ -1,27 +1,25 @@
 public class Solution {
     public int MinimumLength(string s) {
-        LinkedList<char> slst = new LinkedList<char>(s.ToCharArray());
-        int n = s.Length;
+        int i=0,j=s.Length-1;
 
-        while (slst.Count > 1)
-        {
-            char cur = slst.First.Value;
-            if (cur != slst.Last.Value)
-                break;
-            while (cur == slst.First.Value && cur == slst.Last.Value)
-            {
-                slst.RemoveFirst();
-                if (slst == null || slst.Count == 0)
-                    return 0;
+        while (i<j) {
+            if (s[i]!=s[j])
+                return j-i+1;
+            int k = i+1;
+            while (k<j && s[k]==s[j]) {
+                k += 1;
             }
-            while (cur == slst.Last.Value)
-            {
-                slst.RemoveLast();
-                if (slst == null || slst.Count == 0)
-                    return 0;
+
+            i = k;
+            
+            int t = j-1;
+            while (t>i && s[t]==s[j]) {
+                t -= 1;
             }
+
+            j = t;
         }
 
-        return slst.Count;
+        return j-i+1;
     }
 }
