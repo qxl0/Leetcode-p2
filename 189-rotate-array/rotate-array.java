@@ -1,22 +1,31 @@
 class Solution {
     public void rotate(int[] nums, int k) {
         int n = nums.length;
+        k %= n;
+        int count = 0;
+        int start = 0;
 
-        k = k%n;
+        while (count < n) {
+            
+            int current = start;
+            int current_val = nums[start];
 
-        List<Integer> temp = new ArrayList<>();
-        for (int i=n-k;i<n;i++) {
-            temp.add(nums[i]);
+            while (true) {
+                int next = (current+k)%n;
+                int temp = nums[next];
+
+                // shift current -> next 
+                nums[next] = current_val;
+                count += 1;
+
+                current = next;
+                current_val = temp;
+
+                if (current == start) 
+                    break;
+            }
+
+            start += 1;
         }
-
-        for (int i=0;i<n-k;i++) {
-            temp.add(nums[i]);
-        }
-
-        System.out.println(temp);
-        for (int i=0;i<n;i++) {
-            nums[i] = temp.get(i);
-        }
-
     }
 }
