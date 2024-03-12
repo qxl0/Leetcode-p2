@@ -7,14 +7,11 @@
 
 class Solution:
     def inorderSuccessor(self, root: TreeNode, p: TreeNode) -> Optional[TreeNode]:
-        succ = None 
-        def dfs(node):
-            nonlocal succ 
-            if not node: return 
-            if (node.val<=p.val): # node's v <= p 
-                dfs(node.right)
+        succ = None
+        while root:
+            if p.val>=root.val:
+                root = root.right
             else:
-                succ = node 
-                dfs(node.left)
-        dfs(root)
+                succ = root 
+                root = root.left 
         return succ 
