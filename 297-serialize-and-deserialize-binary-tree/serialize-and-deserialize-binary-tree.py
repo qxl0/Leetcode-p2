@@ -14,15 +14,22 @@ class Codec:
         :rtype: str
         """
         ans = []
-        def dfs(node):
-            if not node: 
-                ans.append('N')
-                return
-            ans.append(str(node.val))
-            dfs(node.left)
-            dfs(node.right)
-        dfs(root)
-        print(",".join(ans))
+        def bfs(node):
+            # level order traversal
+            q = deque()
+            q.append(node)
+            while q:
+                qsize = len(q)
+                for _ in range(qsize):
+                    cur = q.popleft()
+                    if not cur:                        
+                        ans.append('N')
+                        continue
+                    ans.append(str(cur.val))
+                    q.append(cur.left)                    
+                    q.append(cur.right)
+        if not root: return ""
+        bfs(root)
         return ",".join(ans)
 
     def deserialize(self, data):
@@ -31,24 +38,24 @@ class Codec:
         :type data: str
         :rtype: TreeNode
         """
+        if data=="": return None
+        lst = data.split(',')        
         
-        lst = data.split(",")
-        n = len(lst)
-        if not lst:
-            return None
-        i=0
-        def dfs():
-            nonlocal i
-            if i==n: return
-            if lst[i]=='N': return None
-            root = TreeNode(int(lst[i]))
-            i+= 1
-            root.left = dfs()
-            i+=1 
-            root.right = dfs()
-            return root
-        return dfs()
-        
+        root = TreeNode(int(lst[0]))
+        q = deque()
+        q.append(root)
+        i = 1
+        while i<len(lst):
+            parent = q.popleft()            
+            if lst[i]!='N':
+                parent.left = TreeNode(int(lst[i]))
+                q.append(parent.left)
+            i += 1
+            if lst[i]!='N':
+                parent.right = TreeNode(int(lst[i]))
+                q.append(parent.right)
+            i += 1
+        return root
 
 # Your Codec object will be instantiated and called as such:
 # ser = Codec()
