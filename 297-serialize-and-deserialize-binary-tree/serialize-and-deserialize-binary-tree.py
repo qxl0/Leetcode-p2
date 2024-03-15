@@ -28,8 +28,15 @@ class Codec:
                     ans.append(str(cur.val))
                     q.append(cur.left)                    
                     q.append(cur.right)
+        def removetrailing(lst):
+            for i in range(len(lst)-1,-1,-1):
+                if lst[i]!='N':
+                    break
+                lst.pop()
         if not root: return ""
         bfs(root)
+        removetrailing(ans)
+        print(",".join(ans))
         return ",".join(ans)
 
     def deserialize(self, data):
@@ -51,7 +58,7 @@ class Codec:
                 parent.left = TreeNode(int(lst[i]))
                 q.append(parent.left)
             i += 1
-            if lst[i]!='N':
+            if i<len(lst) and lst[i]!='N':
                 parent.right = TreeNode(int(lst[i]))
                 q.append(parent.right)
             i += 1
