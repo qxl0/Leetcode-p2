@@ -13,31 +13,20 @@ class Codec:
         :type root: TreeNode
         :rtype: str
         """
-        ans = []
-        def bfs(node):
-            # level order traversal
-            q = deque()
-            q.append(node)
-            while q:
-                qsize = len(q)
-                for _ in range(qsize):
-                    cur = q.popleft()
-                    if not cur:                        
-                        ans.append('N')
-                        continue
-                    ans.append(str(cur.val))
-                    q.append(cur.left)                    
-                    q.append(cur.right)
-        def removetrailing(lst):
-            for i in range(len(lst)-1,-1,-1):
-                if lst[i]!='N':
-                    break
-                lst.pop()
         if not root: return ""
-        bfs(root)
-        removetrailing(ans)
-        print(",".join(ans))
+        ans = []
+        q = deque()
+        q.append(root)
+        while q:
+            cur = q.popleft()
+            if not cur: 
+                ans.append('N')
+                continue
+            ans.append(str(cur.val))            
+            q.append(cur.left)
+            q.append(cur.right)
         return ",".join(ans)
+        
 
     def deserialize(self, data):
         """Decodes your encoded data to tree.
@@ -45,24 +34,24 @@ class Codec:
         :type data: str
         :rtype: TreeNode
         """
-        if data=="": return None
-        lst = data.split(',')        
-        
-        root = TreeNode(int(lst[0]))
+        if data=="":
+            return None
+        lst = data.split(',')
         q = deque()
+        root = TreeNode(int(lst[0]))
         q.append(root)
         i = 1
         while i<len(lst):
-            parent = q.popleft()            
-            if lst[i]!='N':
+            parent = q.popleft()
+            if lst[i]!="N":
                 parent.left = TreeNode(int(lst[i]))
                 q.append(parent.left)
             i += 1
-            if i<len(lst) and lst[i]!='N':
+            if (lst[i]!="N"):
                 parent.right = TreeNode(int(lst[i]))
                 q.append(parent.right)
-            i += 1
-        return root
+            i+= 1
+        return root 
 
 # Your Codec object will be instantiated and called as such:
 # ser = Codec()
