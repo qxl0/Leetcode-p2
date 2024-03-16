@@ -1,47 +1,95 @@
 class Solution {
-    char[][] _grid;
-    int[] d1 = new int[]{-1,0,1,0};
-    int[] d2 = new int[]{0,-1,0,1};
-    int m,n;
-    public int numIslands(char[][] grid) {
-        m=grid.length;
-        n=grid[0].length;
-        this._grid = grid;
-        int ret = 0;
-        boolean[][] vis = new boolean[m][n];
-        for (int i=0;i<m;i++) {
-            for (int j=0;j<n;j++) {
-                if (grid[i][j]=='1' && !vis[i][j]) {
-                    ret += 1;
-                    bfs(i,j, vis);
-                }
-
+    int m;
+    int n;
+    class UnionFind {
+        int count;
+        int[] father;
+        int[] rank;
+        
+        public UnionFind(int n) {
+            father = new int[n];
+            rank = new int[n];
+            for (int i=0;i<n;i++) {
+                this.father[i] = i;
+                this.rank[i] = 1;                
             }
         }
-        return ret;
+
+        public UnionFind(char[][] grid) {
+            int m = grid.length,n = grid[0].length;
+            father = new int[m*n];
+            rank = new int[m*n];
+            for (int i=0;i<m;i++) {
+                for (int j=0;j<n;j++) {
+                    if (grid[i][j]=='1') {
+                        this.father[i*n+j] = i*n+j;                        
+                        count += 1;              
+                    }
+                    this.rank[i*n+j] = 1;  
+                }
+            }
+        }
+        public int findFather(int x) {
+            int px = this.father[x];
+            if (px!=x) {
+                this.father[x] = this.findFather(px);
+            }
+            return this.father[x];
+        }
+
+        public boolean union(int x, int y) {
+            int px = this.findFather(x);
+            int py = this.findFather(y);
+
+            if (px==py) return false;
+
+            if (rank[px]<rank[py]) {
+                this.rank[py]+= this.rank[px];
+                this.father[py] = px;
+            }
+            else {
+                this.rank[px]+= this.rank[py];
+                this.father[px] = py;
+            }
+            count -= 1;
+            // System.out.println(count);
+            return true;
+        }
+
+        public int getCount() {
+            return count;
+        }
     }
-    private void bfs(int i,int j, boolean[][] vis) {
-        Queue<int[]> q = new LinkedList<int[]>();
-        
-        q.add(new int[] {i,j} );
-        while (!q.isEmpty()) {
-            int qsize = q.size();
+    public int numIslands(char[][] grid) {
+        m = grid.length;
+        n = grid[0].length;        
 
-            for (int k=0;k<qsize;k++) {
-                int[] cur = q.poll();
-                int x = cur[0], y=cur[1];                
+        UnionFind uf = new UnionFind(grid);
 
-                for (var p=0;p<4;p++) {
-                    int nx = x+d1[p];
-                    int ny = y+d2[p];
-                    if (nx<0 || nx>=m || ny<0 || ny>=n) continue;
-                    if (!vis[nx][ny] && _grid[nx][ny]=='1') {
-                        vis[nx][ny] = true;
-                        q.add(new int[] {nx, ny});
+        for (int i=0;i<m;i++) {
+            for (int j=0;j<n;j++) {
+                if (grid[i][j]=='1') {
+                    grid[i][j] = '0';
+                    if (i-1>=0 && grid[i-1][j]=='1') {
+                        uf.union(getId(i,j), getId(i-1,j));
+                    }
+                    if (i+1<m && grid[i+1][j]=='1') {
+                        uf.union(getId(i,j), getId(i+1,j));
+                    }
+                    if (j-1>=0 && grid[i][j-1]=='1') {
+                        uf.union(getId(i,j), getId(i,j-1));
+                    }
+                    if (j+1<n && grid[i][j+1]=='1') {
+                        uf.union(getId(i,j), getId(i,j+1));
                     }
                 }
             }
         }
 
+        return uf.getCount();
+    }
+
+    private int getId(int x, int y) {
+        return (x)*n + y;
     }
 }
