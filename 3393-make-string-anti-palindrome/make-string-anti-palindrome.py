@@ -1,6 +1,5 @@
 class Solution:
-    def makeAntiPalindrome(self, s: str) -> str:
-        count = Counter(s)
+    def makeAntiPalindrome(self, s: str) -> str:        
         n = len(s)
         ans = sorted(ch for ch in s)
         i=j=n//2 
