@@ -20,6 +20,6 @@ class Solution {
             j += 1;
         }
 
-        return new String(ans);
+        return String.join("", IntStream.range(0,ans.length).mapToObj(i->String.valueOf(ans[i])).toArray(String[]::new));
     }
 }
