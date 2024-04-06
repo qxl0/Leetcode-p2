@@ -1,23 +1,26 @@
 class Solution:
     def sumOfPower(self, nums: List[int], k: int) -> int:
+        """
+        sum of power: power of an array: # of subsequence sum()==k 
+        return: sum of power of all subsequences of nums   
+        dp[i][s][j]: # of subsequences up to nums[:i] with sum==s len==j  
+        """
+        MOD=10**9+7
         if sum(nums)<k: return 0
         n = len(nums)
-        MOD=10**9+7
-        dp = [[[-1]*(k+1) for _ in range(k+1)] for _ in range(n+1)]        
-        def dfs(i, path, sm):            
-            if sm<0: return 0
-            if i>=n and sm!=0: return 0
-            if sm==0:
-                return pow(2, n-path, MOD)
-            if dp[i][path][sm]!=-1: return dp[i][path][sm]         
-            nottake=dfs(i+1, path,sm)            
-            take=dfs(i+1, path+1, sm-nums[i])
-            dp[i][path][sm] = (take+nottake)%MOD 
-            return dp[i][path][sm]
-        return dfs(0, 0, k)
+        dp = [[[0]*(n+1) for _ in range(k+1)] for _ in range(n+1)]
         
-
-
-
+        dp[0][0][0] = 1
+        for i in range(1,n+1):              
+            for s in range(k+1):                                
+                for j in range(i+1):                      
+                    dp[i][s][j] = dp[i-1][s][j]
+                    if nums[i-1]<=s and j>0:
+                        dp[i][s][j] += dp[i-1][s-nums[i-1]][j-1]
+                    dp[i][s][j] %= MOD
+        ret = 0
+        for j in range(1,n+1):
+            ret += dp[n][k][j]*pow(2,n-j,MOD)
+            ret %= MOD   
         
-        
+        return ret 
