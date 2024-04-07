@@ -2,7 +2,7 @@ class UnionFind:
     def __init__(self,n):
         self.n = n
         self.data = [i for i in range(n+1)]        
-        self.result = [-1 for i in range(n+1)]
+        self.result = [(1<<32)-1 for i in range(n+1)]
 
     def find(self,x):
         px = self.data[x]
@@ -16,17 +16,11 @@ class UnionFind:
             return False 
         if px<py:
             self.data[py] = px
-            if self.result[py]==-1:
-                self.result[py] = w   
-            self.result[py] &=w   
-            if self.result[px]==-1: self.result[px]=(1<<31)-1
+            self.result[py] &=w               
             self.result[px] &= self.result[py]
         else:
             self.data[px] = py
-            if self.result[px]==-1:
-                self.result[px] = w 
-            self.result[px] &= w
-            if self.result[py]==-1: self.result[py]=(1<<31)-1
+            self.result[px] &= w            
             self.result[py] &= self.result[px]
         return True 
     def get(self,x):
