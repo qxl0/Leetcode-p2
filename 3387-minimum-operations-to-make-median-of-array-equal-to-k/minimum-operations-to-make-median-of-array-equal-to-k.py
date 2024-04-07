@@ -6,17 +6,15 @@ class Solution:
         if median==k:
             return 0
         else:
-            if median>k:
-                ret = 0
+            ret = 0
+            if median>k:            
                 for i in range(n//2,-1,-1):
                     if nums[i]<=k: 
                         return ret   
-                    ret += nums[i]-k                
-                return ret 
-            else:  # median<k   
-                ret = 0
+                    ret += nums[i]-k                                
+            else:  # median<k               
                 for i in range(n//2,n,1):
                     if nums[i]>=k:
                         return ret 
                     ret += k-nums[i]
-                return ret 
+            return ret 
