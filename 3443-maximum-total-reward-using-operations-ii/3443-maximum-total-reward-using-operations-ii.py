@@ -1,9 +1,13 @@
-
 class Solution:
-    def maxTotalReward(self, A: List[int]) -> int:        
-        b = 1<<0
-        for v in sorted(set(A)):
-            b |= (b&((1<<v)-1))<<v
-        return b.bit_length()-1
-
-        
+    def maxTotalReward(self, rewardValues: List[int]) -> int:
+        A = sorted(set(rewardValues))
+        b = 1<<0  # stands for 0 in rewards
+        for a in A[:-1]:
+            b |= (b&((1<<a)-1))<<a
+        # check b for 1 before a
+        pos=0
+        for i in range(A[-1]-1,-1,-1):
+            if (b>>i)&1==1:
+                pos = i
+                break
+        return A[-1]+pos
