@@ -1,24 +1,18 @@
 class Solution:
     def maximumTotalDamage(self, power: List[int]) -> int:
-        count = Counter(power)
-        
-        vals = sorted(count.keys())
-        n = len(vals)
-        dp = [0]*n
+        max_dp = 0
+        power.sort()
+        n = len(power)
+        dp = [0]*(n+1)
 
-        dp[0] = vals[0]*count[vals[0]]
-        for i in range(1,n):
-            cur = vals[i]
-            freq = count[cur]
-            curpower = cur*freq
-
-            dp[i] = dp[i-1]
-            # find prev with no conflict with cur 
-            j = i-1
-            while j>=0 and vals[j] in [cur-1,cur-2,cur+1,cur+2]:
-                j -= 1
-            if j>=0:
-                dp[i] = max(dp[i], dp[j]+curpower)
-            else:
-                dp[i] = max(dp[i], curpower)
-        return dp[n-1]
+        j = 0
+        for i in range(n):
+            if power[i]==power[max(0,i-1)]:
+                dp[i+1] = dp[i]+power[i]
+            else:                
+                while j<n and power[j]+2<power[i]:
+                    max_dp = max(max_dp, dp[j+1])
+                    j += 1
+                # when stop power[j]+2<power[i]
+                dp[i+1]=max_dp + power[i]
+        return max(dp)
