@@ -1,122 +1,84 @@
-class SegmentTreeNode:
-    def __init__(self, start, end, count):
-        self.start = start
-        self.end = end
-        self.count = count
-        self.left = self.right = None
-
-    def __repr__(self) -> str:
-        return f"max:{self.count},start:{self.start},end:{self.end}, {self.left},{self.right}"
-
-
-class SegmentTree:
-    root = None
-    p = None
-    nums = None 
-    def __init__(self, nums):
-        self.p = self.build(nums)
-        self.nums = nums
-        self.root = self.buildHelper(0, len(nums) - 1, nums)
-        
-
-    def build(self,nums):
-        n = len(nums)
-        ret = [False]*n
-        for i in range(1,n-1):
-            if nums[i]>nums[i-1] and nums[i]>nums[i+1]:
-                ret[i] = True
-        return ret
-
-    def __repr__(self):
-        return self.root
-
-    def buildHelper(self, start, end, nums):
-        if start > end:
-            return None
-        if start == end:
-            return SegmentTreeNode(start, end, (1 if self.p[start] else 0))
-        # root has Child
-        root = SegmentTreeNode(start, end, 0)
-        mid = start + (end - start) // 2
-        root.left = self.buildHelper(start, mid, nums)
-        root.right = self.buildHelper(mid + 1, end, nums)
-
-        # maximum
-        if root.left:
-            root.count += root.left.count
-        if root.right:
-            root.count += root.right.count
-
-        return root
-
-    def query(self, start, end):
-        ret = self._query(self.root, start, end)
-        if self.p[start]:
-            ret -= 1
-        if self.p[end]:
-            ret -= 1
-        return max(0,ret) 
-
-    def _query(self, node, start, end):
-        if start <= node.start and node.end <= end:
-            return node.count
-        mid = node.start + (node.end - node.start) // 2
-        leftRet = 0
-        rightRet = 0
-        if start <= mid:
-            leftRet += self._query(node.left, start, end)
-        if mid < end:
-            rightRet += self._query(node.right, start, end)
-
-        return leftRet+rightRet
-
-    def modify(self, index, value):
-        self._modify(self.root, index, value)
-
-    def _modify(self, root: SegmentTreeNode, index: int, value: int):
-        # exit
-        if root.start == root.end and root.start == index:            
-            # index-1,index, index+1
-            self.updatep(index, value)
-            root.count =( 1 if self.p[index] else 0)
+class SGT:
+    def __init__(self, n):
+        self.seg = [0]*(4*n+1)
+    def build(self, index, low,high,arr):
+        # build sgt rooted at index 
+        if low==high:
+            self.seg[index] = arr[low]
             return
+        mid=(low+high)//2
+        self.build(2*index+1, low, mid, arr)
+        self.build(2*index+2, mid+1, high, arr)
 
-        mid = root.start + (root.end - root.start) // 2
+        self.seg[index] = self.seg[2*index+1] + self.seg[2*index+2]
 
-        # left root.start, mid
-        if index <= mid:
-            self._modify(root.left, index, value)
-        else:
-            self._modify(root.right, index, value)
-
-        # maintain max
-        root.count = root.left.count + root.right.count
-        return
-    def updatep(self, i, value):
-        # i-1,i,i+1
-        nums = self.nums
-        p = self.p 
-        n = len(nums)
-        if p[i]:
-            if i-1>=0 and i+1<n and value<=nums[i+1] or value <= nums[i-1]:
-                p[i] = False             
-        else:     
-            if i+1<n and i-1>=0 and value>nums[i+1] and value > nums[i-1]:
-                p[i] = True 
+    def query(self, index, low,high,l,r):
+        # query sgt rooted at index 
+        if r<low or l>high: 
+            return 0
+        if low>=l and r>=high:
+            return self.seg[index]
         
-        nums[i] = value
+        mid = (low+high)//2
+        left = self.query(2*index+1, low, mid, l, r)
+        right = self.query(2*index+2, mid+1, high, l, r)
+
+        return left + right 
+
+    def update(self,index, low,high,i,val):
+        if low==high:
+            self.seg[index] = val
+            return 
+        
+        mid = (low+high)//2
+        if i<=mid:
+            self.update(2*index+1, low, mid, i, val)
+        else:
+            self.update(2*index+2, mid+1, high, i, val)
+        
+        self.seg[index] = self.seg[2*index+1]+self.seg[2*index+2]
+        
 
 class Solution:
     def countOfPeaks(self, nums: List[int], queries: List[List[int]]) -> List[int]:
-        ret = []
-        tree = SegmentTree(nums)
-        for tpe,p1,p2 in queries:
-            if tpe==2:
-                tree.modify(p1,p2)
-                if p1-1>=0:
-                    tree.modify(p1-1,nums[p1-1])
-                if p1+1<len(nums):
-                    tree.modify(p1+1,nums[p1+1])
+        n  = len(nums)
+        peak = [0]*n
+        def maintain(x):
+            if nums[x]>nums[x-1] and nums[x]>nums[x+1]:
+                tree.update(0,0,n-1,x,1)
+                peak[x] = 1
             else:
-                ret.append(tree.query(p1,p2))
-        return ret 
+                tree.update(0,0,n-1,x,0)
+                peak[x] = 0
+
+        for i in range(1,n-1):
+            if nums[i]>nums[i-1] and nums[i]>nums[i+1]:
+                peak[i] =1
+        tree = SGT(n)
+        tree.build(0,0,n-1,peak)
+        ans = []
+
+        for i in range(len(queries)):
+            tp1 = queries[i][0]
+            if tp1==2:
+                # update tree 
+                _, p, x = queries[i]
+                nums[p] = x
+                if p-1>=0 and p+1<n: # check 
+                    maintain(p)
+                if p-2>=0 and p<n: # p-1
+                    maintain(p-1)
+                if p>=0 and p+2<n: # p+1
+                    maintain(p+1)
+            else: # query
+                _, l, r = queries[i]
+                if l==r:
+                    ans.append(0)
+                    continue
+                res = tree.query(0,0,n-1,l,r)
+                if peak[l]==1: res -= 1
+                if peak[r]==1: res -= 1
+                ans.append(res)
+        return ans 
+
+        
