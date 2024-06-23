@@ -3,9 +3,7 @@ class Solution:
         ret = 0
         n = len(nums)
         flipbit = 0
-        def flip(i): 
-            nonlocal flipbit           
-            flipbit ^=1
+        
         i = 0
         while i<n:
             cur = nums[i]^flipbit
@@ -13,7 +11,7 @@ class Solution:
                 i += 1
                 continue            
             ret += 1
-            flip(i)
+            flipbit ^=1
             i += 1
         
         return ret 
