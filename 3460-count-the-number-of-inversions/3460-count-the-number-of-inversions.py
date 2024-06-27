@@ -1,23 +1,22 @@
 class Solution:
     def numberOfPermutations(self, n: int, requirements: List[List[int]]) -> int:
-        # [0,1,2,.. n-1 ]
-        MOD=10**9+7
-        mp = {e+1:c for e,c in requirements}
+        """ dfs(cur,invcnt): 
+            number of perms of cur distinct elements that satisfy the requirements and have exactly invcnt inversions 
+        """
+        DistinctElement2Cnt = {end+1:n for end,n in requirements}
 
-        dp = [[0]*401 for _ in range(n+1)]
-        dp[0][0] = 1
-        for i in range(1,n+1):
-            for j in range(401):
-                for k in range(i):
-                    if j>=k:
-                        dp[i][j] = (dp[i][j] + dp[i-1][j-k])%MOD
-            if i in mp:
-                tmp = mp[i]
-                for j in range(401):
-                    if j!=tmp:
-                        dp[i][j] = 0
-        ans = 0
-        for i in range(401):
-            ans += dp[n][i]
-            ans %=MOD
-        return ans
+        @cache
+        def dfs(cur, invcnt):
+            if invcnt<0: 
+                return 0
+            if cur in DistinctElement2Cnt and DistinctElement2Cnt[cur]!=invcnt:
+                return 0
+            if cur==1:
+                return 1 if invcnt==0 else 0
+            
+            ret = 0
+            for i in range(1,cur+1):
+                invs = cur - i
+                ret += dfs(cur-1, invcnt - invs)
+            return ret 
+        return dfs(n, DistinctElement2Cnt[n])%(10**9+7)
