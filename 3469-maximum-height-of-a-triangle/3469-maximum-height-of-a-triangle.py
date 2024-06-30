@@ -5,18 +5,14 @@ class Solution:
             cur = 1 
             size = 1           
             while n1>0 or n2>0:
-                if cur==1:
-                    if n1>=size:
-                        n1 -= size                         
-                        cur = 2                        
-                    else:
-                        break
-                else: # cur==2
-                    if n2>=size:
-                        n2 -= size                        
-                        cur = 1
-                    else:
-                        break                
+                if cur==1 and n1>=size:
+                    n1 -= size                         
+                    cur = 2                                            
+                elif cur==2 and n2>=size:
+                    n2 -= size                        
+                    cur = 1
+                else:
+                    break                
                 size += 1
                 height += 1
             return height
