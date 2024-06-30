@@ -7,20 +7,18 @@ class Solution:
             while n1>0 or n2>0:
                 if cur==1:
                     if n1>=size:
-                        n1 -= size 
-                        height += 1
-                        cur = 2
-                        size += 1
+                        n1 -= size                         
+                        cur = 2                        
                     else:
                         break
                 else: # cur==2
                     if n2>=size:
-                        n2 -= size
-                        height += 1
+                        n2 -= size                        
                         cur = 1
-                        size += 1
                     else:
-                        break
+                        break                
+                size += 1
+                height += 1
             return height
 
         h = 0
