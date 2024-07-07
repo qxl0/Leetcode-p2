@@ -1,9 +1,9 @@
 class Solution:
     def maxScore(self, nums: List[int]) -> int:
-        n = len(nums)
-        dp = [0]*n
-
-        for i in range(n):
-            for j in range(i+1,n):
-                dp[j] = max(dp[j], (j-i)*nums[j] + dp[i])
-        return dp[n-1]
+        ret,mx=0,0
+        for x in nums[:0:-1]:
+            if x>mx:
+                mx = x 
+            ret += mx
+            print(f'x={x},mx={mx}, ret={ret}')
+        return ret
