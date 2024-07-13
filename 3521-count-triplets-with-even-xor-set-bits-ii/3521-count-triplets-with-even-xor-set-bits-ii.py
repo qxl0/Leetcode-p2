@@ -2,6 +2,11 @@ class Solution:
     def tripletCount(self, a: List[int], b: List[int], c: List[int]) -> int:
         def bitsets(arr):
             return [1 if bin(x)[2:].count('1')%2==1 else 0 for x in arr]
+        # choose shortest as a
+        if len(a)>len(b):
+            a,b = b,a
+        if len(a)>len(c):
+            a,c = c,a
         ap = bitsets(a)
         bp = bitsets(b)
         cp = bitsets(c)
