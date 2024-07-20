@@ -6,29 +6,39 @@
 #         self.right = right
 class Solution:
     def countPairs(self, root: TreeNode, distance: int) -> int:
-        ret = 0
-        def dfs(node): # return # of good leaf nodes pair
-            nonlocal ret
-            if node and not node.left and not node.right:
-                return [(1,0)]
-            left,right = None,None
+        adj = defaultdict(list)
+        bq = []
+        def traverseTree(node,parent=None):
+            if not node: return            
+            # add 
             if node.left:
-                left = dfs(node.left)  # [(lc, height), ....]
+                adj[node.left].append(node)
+                adj[node].append(node.left)
+                traverseTree(node.left, node)            
             if node.right:
-                right = dfs(node.right)
-            
-            # update ret 
-            if left and right:
-                for l,lh in left:
-                    for r,rh in right:
-                        if lh+rh+2<=distance:
-                            ret += l*r
-                ans = [(l,h+1) for l,h in left]+[(r,h+1) for r,h in right]            
-            elif left:
-                ans = [(l,h+1) for l,h in left]
-            elif right:
-                ans = [(r,h+1) for r,h in right]
-            return ans
+                adj[node.right].append(node)
+                adj[node].append(node.right)
+                traverseTree(node.right,node)
+            if not node.left and not node.right:
+                bq.append(node)
+        traverseTree(root)
 
-        dfs(root)
-        return ret
+        # bfs        
+        ret = 0                
+        for leaf in bq:
+            q = deque()
+            q.append(leaf)
+            vis = set()
+            vis.add(leaf)
+            for _ in range(distance+1):
+                size = len(q)
+                for _ in range(size):
+                    cur = q.popleft()                    
+                    if cur!=leaf and not cur.left and not cur.right:
+                        ret += 1
+                    for nei in adj[cur]:
+                        if nei in vis:
+                            continue 
+                        vis.add(cur)                   
+                        q.append(nei)            
+        return ret//2
