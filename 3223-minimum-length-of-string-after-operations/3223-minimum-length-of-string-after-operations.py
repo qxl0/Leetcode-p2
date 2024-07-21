@@ -1,17 +1,10 @@
 class Solution:
     def minimumLength(self, s: str) -> int:
-        n = len(s)
-        if n<3: 
-            return n
-        Map = defaultdict(list)
-        
-        for i in range(n):
-            Map[s[i]].append(i)
-        # a: 0,2,3
+        count = Counter(s)
         ret = 0
-        for c,lst in Map.items():
-            if len(lst)>=3:
-                ret += (1 if len(lst)%2 ==1 else 2 )
+        for _,freq in count.items():
+            if freq<3:
+                ret += freq
             else:
-                ret += len(lst)
+                ret += 1 if freq%2==1 else 2
         return ret
