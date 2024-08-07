@@ -14,6 +14,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3491-find-the-maximum-length-of-valid-subsequence-ii](https://github.com/qxl0/Leetcode-p2/tree/master/3491-find-the-maximum-length-of-valid-subsequence-ii) |
 | [3498-minimum-array-changes-to-make-differences-equal](https://github.com/qxl0/Leetcode-p2/tree/master/3498-minimum-array-changes-to-make-differences-equal) |
 | [3500-minimum-cost-for-cutting-cake-ii](https://github.com/qxl0/Leetcode-p2/tree/master/3500-minimum-cost-for-cutting-cake-ii) |
+| [3516-design-neighbor-sum-service](https://github.com/qxl0/Leetcode-p2/tree/master/3516-design-neighbor-sum-service) |
 ## Dynamic Programming
 |  |
 | ------- |
@@ -46,11 +47,13 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1711-find-valid-matrix-given-row-and-column-sums](https://github.com/qxl0/Leetcode-p2/tree/master/1711-find-valid-matrix-given-row-and-column-sums) |
+| [3516-design-neighbor-sum-service](https://github.com/qxl0/Leetcode-p2/tree/master/3516-design-neighbor-sum-service) |
 ## Hash Table
 |  |
 | ------- |
 | [1741-sort-array-by-increasing-frequency](https://github.com/qxl0/Leetcode-p2/tree/master/1741-sort-array-by-increasing-frequency) |
 | [3498-minimum-array-changes-to-make-differences-equal](https://github.com/qxl0/Leetcode-p2/tree/master/3498-minimum-array-changes-to-make-differences-equal) |
+| [3516-design-neighbor-sum-service](https://github.com/qxl0/Leetcode-p2/tree/master/3516-design-neighbor-sum-service) |
 ## Prefix Sum
 |  |
 | ------- |
@@ -85,4 +88,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [3479-count-the-number-of-substrings-with-dominant-ones](https://github.com/qxl0/Leetcode-p2/tree/master/3479-count-the-number-of-substrings-with-dominant-ones) |
+## Design
+|  |
+| ------- |
+| [3516-design-neighbor-sum-service](https://github.com/qxl0/Leetcode-p2/tree/master/3516-design-neighbor-sum-service) |
+## Simulation
+|  |
+| ------- |
+| [3516-design-neighbor-sum-service](https://github.com/qxl0/Leetcode-p2/tree/master/3516-design-neighbor-sum-service) |
 <!---LeetCode Topics End-->
