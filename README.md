@@ -16,6 +16,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3500-minimum-cost-for-cutting-cake-ii](https://github.com/qxl0/Leetcode-p2/tree/master/3500-minimum-cost-for-cutting-cake-ii) |
 | [3516-design-neighbor-sum-service](https://github.com/qxl0/Leetcode-p2/tree/master/3516-design-neighbor-sum-service) |
 | [3525-maximum-energy-boost-from-two-drinks](https://github.com/qxl0/Leetcode-p2/tree/master/3525-maximum-energy-boost-from-two-drinks) |
+| [3546-count-substrings-that-satisfy-k-constraint-ii](https://github.com/qxl0/Leetcode-p2/tree/master/3546-count-substrings-that-satisfy-k-constraint-ii) |
 ## Dynamic Programming
 |  |
 | ------- |
@@ -60,6 +61,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [3498-minimum-array-changes-to-make-differences-equal](https://github.com/qxl0/Leetcode-p2/tree/master/3498-minimum-array-changes-to-make-differences-equal) |
+| [3546-count-substrings-that-satisfy-k-constraint-ii](https://github.com/qxl0/Leetcode-p2/tree/master/3546-count-substrings-that-satisfy-k-constraint-ii) |
 ## Two Pointers
 |  |
 | ------- |
@@ -70,6 +72,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/qxl0/Leetcode-p2/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
 | [1756-minimum-deletions-to-make-string-balanced](https://github.com/qxl0/Leetcode-p2/tree/master/1756-minimum-deletions-to-make-string-balanced) |
 | [3479-count-the-number-of-substrings-with-dominant-ones](https://github.com/qxl0/Leetcode-p2/tree/master/3479-count-the-number-of-substrings-with-dominant-ones) |
+| [3546-count-substrings-that-satisfy-k-constraint-ii](https://github.com/qxl0/Leetcode-p2/tree/master/3546-count-substrings-that-satisfy-k-constraint-ii) |
 ## String Matching
 |  |
 | ------- |
@@ -86,6 +89,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [3479-count-the-number-of-substrings-with-dominant-ones](https://github.com/qxl0/Leetcode-p2/tree/master/3479-count-the-number-of-substrings-with-dominant-ones) |
+| [3546-count-substrings-that-satisfy-k-constraint-ii](https://github.com/qxl0/Leetcode-p2/tree/master/3546-count-substrings-that-satisfy-k-constraint-ii) |
 ## Enumeration
 |  |
 | ------- |
@@ -98,4 +102,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [3516-design-neighbor-sum-service](https://github.com/qxl0/Leetcode-p2/tree/master/3516-design-neighbor-sum-service) |
+## Binary Search
+|  |
+| ------- |
+| [3546-count-substrings-that-satisfy-k-constraint-ii](https://github.com/qxl0/Leetcode-p2/tree/master/3546-count-substrings-that-satisfy-k-constraint-ii) |
 <!---LeetCode Topics End-->
