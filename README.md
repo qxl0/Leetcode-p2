@@ -12,6 +12,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1711-find-valid-matrix-given-row-and-column-sums](https://github.com/qxl0/Leetcode-p2/tree/master/1711-find-valid-matrix-given-row-and-column-sums) |
 | [1741-sort-array-by-increasing-frequency](https://github.com/qxl0/Leetcode-p2/tree/master/1741-sort-array-by-increasing-frequency) |
 | [3491-find-the-maximum-length-of-valid-subsequence-ii](https://github.com/qxl0/Leetcode-p2/tree/master/3491-find-the-maximum-length-of-valid-subsequence-ii) |
+| [3495-k-th-nearest-obstacle-queries](https://github.com/qxl0/Leetcode-p2/tree/master/3495-k-th-nearest-obstacle-queries) |
 | [3498-minimum-array-changes-to-make-differences-equal](https://github.com/qxl0/Leetcode-p2/tree/master/3498-minimum-array-changes-to-make-differences-equal) |
 | [3500-minimum-cost-for-cutting-cake-ii](https://github.com/qxl0/Leetcode-p2/tree/master/3500-minimum-cost-for-cutting-cake-ii) |
 | [3516-design-neighbor-sum-service](https://github.com/qxl0/Leetcode-p2/tree/master/3516-design-neighbor-sum-service) |
@@ -114,4 +115,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [3534-count-almost-equal-pairs-i](https://github.com/qxl0/Leetcode-p2/tree/master/3534-count-almost-equal-pairs-i) |
+## Heap (Priority Queue)
+|  |
+| ------- |
+| [3495-k-th-nearest-obstacle-queries](https://github.com/qxl0/Leetcode-p2/tree/master/3495-k-th-nearest-obstacle-queries) |
 <!---LeetCode Topics End-->
