@@ -1,15 +1,18 @@
 from sortedcontainers import SortedList
 class Solution:
     def resultsArray(self, queries: List[List[int]], k: int) -> List[int]:
-        l = SortedList()
+        l = []
         def key(x,y):
             return abs(x)+abs(y)
         ans = []
         for x,y in queries:
-            l.add((key(x,y),x,y))    
+            heappush(l, -key(x,y))    
             if len(l)<k:
                 ans.append(-1)
-            else:
-                ans.append(l[k-1][0])
+            elif len(l)>k:
+                heappop(l)
+                ans.append(-l[0])
+            else:               
+                ans.append(-l[0])
             
         return ans
