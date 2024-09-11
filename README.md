@@ -11,6 +11,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1511-count-number-of-teams](https://github.com/qxl0/Leetcode-p2/tree/master/1511-count-number-of-teams) |
 | [1711-find-valid-matrix-given-row-and-column-sums](https://github.com/qxl0/Leetcode-p2/tree/master/1711-find-valid-matrix-given-row-and-column-sums) |
 | [1741-sort-array-by-increasing-frequency](https://github.com/qxl0/Leetcode-p2/tree/master/1741-sort-array-by-increasing-frequency) |
+| [3485-maximize-score-of-numbers-in-ranges](https://github.com/qxl0/Leetcode-p2/tree/master/3485-maximize-score-of-numbers-in-ranges) |
 | [3491-find-the-maximum-length-of-valid-subsequence-ii](https://github.com/qxl0/Leetcode-p2/tree/master/3491-find-the-maximum-length-of-valid-subsequence-ii) |
 | [3495-k-th-nearest-obstacle-queries](https://github.com/qxl0/Leetcode-p2/tree/master/3495-k-th-nearest-obstacle-queries) |
 | [3498-minimum-array-changes-to-make-differences-equal](https://github.com/qxl0/Leetcode-p2/tree/master/3498-minimum-array-changes-to-make-differences-equal) |
@@ -30,11 +31,13 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1711-find-valid-matrix-given-row-and-column-sums](https://github.com/qxl0/Leetcode-p2/tree/master/1711-find-valid-matrix-given-row-and-column-sums) |
+| [3485-maximize-score-of-numbers-in-ranges](https://github.com/qxl0/Leetcode-p2/tree/master/3485-maximize-score-of-numbers-in-ranges) |
 | [3500-minimum-cost-for-cutting-cake-ii](https://github.com/qxl0/Leetcode-p2/tree/master/3500-minimum-cost-for-cutting-cake-ii) |
 ## Sorting
 |  |
 | ------- |
 | [1741-sort-array-by-increasing-frequency](https://github.com/qxl0/Leetcode-p2/tree/master/1741-sort-array-by-increasing-frequency) |
+| [3485-maximize-score-of-numbers-in-ranges](https://github.com/qxl0/Leetcode-p2/tree/master/3485-maximize-score-of-numbers-in-ranges) |
 | [3500-minimum-cost-for-cutting-cake-ii](https://github.com/qxl0/Leetcode-p2/tree/master/3500-minimum-cost-for-cutting-cake-ii) |
 | [3534-count-almost-equal-pairs-i](https://github.com/qxl0/Leetcode-p2/tree/master/3534-count-almost-equal-pairs-i) |
 ## Tree
@@ -110,6 +113,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Binary Search
 |  |
 | ------- |
+| [3485-maximize-score-of-numbers-in-ranges](https://github.com/qxl0/Leetcode-p2/tree/master/3485-maximize-score-of-numbers-in-ranges) |
 | [3546-count-substrings-that-satisfy-k-constraint-ii](https://github.com/qxl0/Leetcode-p2/tree/master/3546-count-substrings-that-satisfy-k-constraint-ii) |
 ## Counting
 |  |
