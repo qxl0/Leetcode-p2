@@ -150,4 +150,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [3560-maximum-number-of-moves-to-kill-all-pawns](https://github.com/qxl0/Leetcode-p2/tree/master/3560-maximum-number-of-moves-to-kill-all-pawns) |
+## Database
+|  |
+| ------- |
+| [3609-calculate-product-final-price](https://github.com/qxl0/Leetcode-p2/tree/master/3609-calculate-product-final-price) |
 <!---LeetCode Topics End-->
