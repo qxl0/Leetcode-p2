@@ -14,6 +14,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3485-maximize-score-of-numbers-in-ranges](https://github.com/qxl0/Leetcode-p2/tree/master/3485-maximize-score-of-numbers-in-ranges) |
 | [3491-find-the-maximum-length-of-valid-subsequence-ii](https://github.com/qxl0/Leetcode-p2/tree/master/3491-find-the-maximum-length-of-valid-subsequence-ii) |
 | [3495-k-th-nearest-obstacle-queries](https://github.com/qxl0/Leetcode-p2/tree/master/3495-k-th-nearest-obstacle-queries) |
+| [3496-minimum-number-of-seconds-to-make-mountain-height-zero](https://github.com/qxl0/Leetcode-p2/tree/master/3496-minimum-number-of-seconds-to-make-mountain-height-zero) |
 | [3498-minimum-array-changes-to-make-differences-equal](https://github.com/qxl0/Leetcode-p2/tree/master/3498-minimum-array-changes-to-make-differences-equal) |
 | [3500-minimum-cost-for-cutting-cake-ii](https://github.com/qxl0/Leetcode-p2/tree/master/3500-minimum-cost-for-cutting-cake-ii) |
 | [3516-design-neighbor-sum-service](https://github.com/qxl0/Leetcode-p2/tree/master/3516-design-neighbor-sum-service) |
@@ -121,6 +122,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [3485-maximize-score-of-numbers-in-ranges](https://github.com/qxl0/Leetcode-p2/tree/master/3485-maximize-score-of-numbers-in-ranges) |
+| [3496-minimum-number-of-seconds-to-make-mountain-height-zero](https://github.com/qxl0/Leetcode-p2/tree/master/3496-minimum-number-of-seconds-to-make-mountain-height-zero) |
 | [3546-count-substrings-that-satisfy-k-constraint-ii](https://github.com/qxl0/Leetcode-p2/tree/master/3546-count-substrings-that-satisfy-k-constraint-ii) |
 ## Counting
 |  |
@@ -133,6 +135,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Math
 |  |
 | ------- |
+| [3496-minimum-number-of-seconds-to-make-mountain-height-zero](https://github.com/qxl0/Leetcode-p2/tree/master/3496-minimum-number-of-seconds-to-make-mountain-height-zero) |
 | [3560-maximum-number-of-moves-to-kill-all-pawns](https://github.com/qxl0/Leetcode-p2/tree/master/3560-maximum-number-of-moves-to-kill-all-pawns) |
 ## Bit Manipulation
 |  |
