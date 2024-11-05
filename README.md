@@ -23,6 +23,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3534-count-almost-equal-pairs-i](https://github.com/qxl0/Leetcode-p2/tree/master/3534-count-almost-equal-pairs-i) |
 | [3546-count-substrings-that-satisfy-k-constraint-ii](https://github.com/qxl0/Leetcode-p2/tree/master/3546-count-substrings-that-satisfy-k-constraint-ii) |
 | [3560-maximum-number-of-moves-to-kill-all-pawns](https://github.com/qxl0/Leetcode-p2/tree/master/3560-maximum-number-of-moves-to-kill-all-pawns) |
+| [3610-find-x-sum-of-all-k-long-subarrays-i](https://github.com/qxl0/Leetcode-p2/tree/master/3610-find-x-sum-of-all-k-long-subarrays-i) |
 | [3611-construct-the-minimum-bitwise-array-ii](https://github.com/qxl0/Leetcode-p2/tree/master/3611-construct-the-minimum-bitwise-array-ii) |
 ## Dynamic Programming
 |  |
@@ -71,6 +72,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3498-minimum-array-changes-to-make-differences-equal](https://github.com/qxl0/Leetcode-p2/tree/master/3498-minimum-array-changes-to-make-differences-equal) |
 | [3516-design-neighbor-sum-service](https://github.com/qxl0/Leetcode-p2/tree/master/3516-design-neighbor-sum-service) |
 | [3534-count-almost-equal-pairs-i](https://github.com/qxl0/Leetcode-p2/tree/master/3534-count-almost-equal-pairs-i) |
+| [3610-find-x-sum-of-all-k-long-subarrays-i](https://github.com/qxl0/Leetcode-p2/tree/master/3610-find-x-sum-of-all-k-long-subarrays-i) |
 ## Prefix Sum
 |  |
 | ------- |
@@ -106,6 +108,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [3479-count-the-number-of-substrings-with-dominant-ones](https://github.com/qxl0/Leetcode-p2/tree/master/3479-count-the-number-of-substrings-with-dominant-ones) |
 | [3546-count-substrings-that-satisfy-k-constraint-ii](https://github.com/qxl0/Leetcode-p2/tree/master/3546-count-substrings-that-satisfy-k-constraint-ii) |
+| [3610-find-x-sum-of-all-k-long-subarrays-i](https://github.com/qxl0/Leetcode-p2/tree/master/3610-find-x-sum-of-all-k-long-subarrays-i) |
 ## Enumeration
 |  |
 | ------- |
@@ -133,6 +136,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [3495-k-th-nearest-obstacle-queries](https://github.com/qxl0/Leetcode-p2/tree/master/3495-k-th-nearest-obstacle-queries) |
+| [3610-find-x-sum-of-all-k-long-subarrays-i](https://github.com/qxl0/Leetcode-p2/tree/master/3610-find-x-sum-of-all-k-long-subarrays-i) |
 ## Math
 |  |
 | ------- |
