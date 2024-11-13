@@ -25,6 +25,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3560-maximum-number-of-moves-to-kill-all-pawns](https://github.com/qxl0/Leetcode-p2/tree/master/3560-maximum-number-of-moves-to-kill-all-pawns) |
 | [3610-find-x-sum-of-all-k-long-subarrays-i](https://github.com/qxl0/Leetcode-p2/tree/master/3610-find-x-sum-of-all-k-long-subarrays-i) |
 | [3611-construct-the-minimum-bitwise-array-ii](https://github.com/qxl0/Leetcode-p2/tree/master/3611-construct-the-minimum-bitwise-array-ii) |
+| [3612-adjacent-increasing-subarrays-detection-i](https://github.com/qxl0/Leetcode-p2/tree/master/3612-adjacent-increasing-subarrays-detection-i) |
 ## Dynamic Programming
 |  |
 | ------- |
