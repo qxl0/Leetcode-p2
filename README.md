@@ -28,6 +28,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3611-construct-the-minimum-bitwise-array-ii](https://github.com/qxl0/Leetcode-p2/tree/master/3611-construct-the-minimum-bitwise-array-ii) |
 | [3612-adjacent-increasing-subarrays-detection-i](https://github.com/qxl0/Leetcode-p2/tree/master/3612-adjacent-increasing-subarrays-detection-i) |
 | [3619-adjacent-increasing-subarrays-detection-ii](https://github.com/qxl0/Leetcode-p2/tree/master/3619-adjacent-increasing-subarrays-detection-ii) |
+| [3651-transformed-array](https://github.com/qxl0/Leetcode-p2/tree/master/3651-transformed-array) |
 ## Dynamic Programming
 |  |
 | ------- |
@@ -127,6 +128,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [3516-design-neighbor-sum-service](https://github.com/qxl0/Leetcode-p2/tree/master/3516-design-neighbor-sum-service) |
+| [3651-transformed-array](https://github.com/qxl0/Leetcode-p2/tree/master/3651-transformed-array) |
 ## Binary Search
 |  |
 | ------- |
