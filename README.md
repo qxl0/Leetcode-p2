@@ -155,11 +155,13 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [3496-minimum-number-of-seconds-to-make-mountain-height-zero](https://github.com/qxl0/Leetcode-p2/tree/master/3496-minimum-number-of-seconds-to-make-mountain-height-zero) |
 | [3560-maximum-number-of-moves-to-kill-all-pawns](https://github.com/qxl0/Leetcode-p2/tree/master/3560-maximum-number-of-moves-to-kill-all-pawns) |
+| [3676-smallest-number-with-all-set-bits](https://github.com/qxl0/Leetcode-p2/tree/master/3676-smallest-number-with-all-set-bits) |
 ## Bit Manipulation
 |  |
 | ------- |
 | [3560-maximum-number-of-moves-to-kill-all-pawns](https://github.com/qxl0/Leetcode-p2/tree/master/3560-maximum-number-of-moves-to-kill-all-pawns) |
 | [3611-construct-the-minimum-bitwise-array-ii](https://github.com/qxl0/Leetcode-p2/tree/master/3611-construct-the-minimum-bitwise-array-ii) |
+| [3676-smallest-number-with-all-set-bits](https://github.com/qxl0/Leetcode-p2/tree/master/3676-smallest-number-with-all-set-bits) |
 ## Breadth-First Search
 |  |
 | ------- |
