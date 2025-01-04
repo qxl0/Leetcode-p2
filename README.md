@@ -34,6 +34,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0010-regular-expression-matching](https://github.com/qxl0/Leetcode-p2/tree/master/0010-regular-expression-matching) |
+| [0464-can-i-win](https://github.com/qxl0/Leetcode-p2/tree/master/0464-can-i-win) |
 | [0552-student-attendance-record-ii](https://github.com/qxl0/Leetcode-p2/tree/master/0552-student-attendance-record-ii) |
 | [1511-count-number-of-teams](https://github.com/qxl0/Leetcode-p2/tree/master/1511-count-number-of-teams) |
 | [1756-minimum-deletions-to-make-string-balanced](https://github.com/qxl0/Leetcode-p2/tree/master/1756-minimum-deletions-to-make-string-balanced) |
@@ -155,12 +156,14 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Math
 |  |
 | ------- |
+| [0464-can-i-win](https://github.com/qxl0/Leetcode-p2/tree/master/0464-can-i-win) |
 | [3496-minimum-number-of-seconds-to-make-mountain-height-zero](https://github.com/qxl0/Leetcode-p2/tree/master/3496-minimum-number-of-seconds-to-make-mountain-height-zero) |
 | [3560-maximum-number-of-moves-to-kill-all-pawns](https://github.com/qxl0/Leetcode-p2/tree/master/3560-maximum-number-of-moves-to-kill-all-pawns) |
 | [3676-smallest-number-with-all-set-bits](https://github.com/qxl0/Leetcode-p2/tree/master/3676-smallest-number-with-all-set-bits) |
 ## Bit Manipulation
 |  |
 | ------- |
+| [0464-can-i-win](https://github.com/qxl0/Leetcode-p2/tree/master/0464-can-i-win) |
 | [3560-maximum-number-of-moves-to-kill-all-pawns](https://github.com/qxl0/Leetcode-p2/tree/master/3560-maximum-number-of-moves-to-kill-all-pawns) |
 | [3611-construct-the-minimum-bitwise-array-ii](https://github.com/qxl0/Leetcode-p2/tree/master/3611-construct-the-minimum-bitwise-array-ii) |
 | [3676-smallest-number-with-all-set-bits](https://github.com/qxl0/Leetcode-p2/tree/master/3676-smallest-number-with-all-set-bits) |
@@ -171,10 +174,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Game Theory
 |  |
 | ------- |
+| [0464-can-i-win](https://github.com/qxl0/Leetcode-p2/tree/master/0464-can-i-win) |
 | [3560-maximum-number-of-moves-to-kill-all-pawns](https://github.com/qxl0/Leetcode-p2/tree/master/3560-maximum-number-of-moves-to-kill-all-pawns) |
 ## Bitmask
 |  |
 | ------- |
+| [0464-can-i-win](https://github.com/qxl0/Leetcode-p2/tree/master/0464-can-i-win) |
 | [3560-maximum-number-of-moves-to-kill-all-pawns](https://github.com/qxl0/Leetcode-p2/tree/master/3560-maximum-number-of-moves-to-kill-all-pawns) |
 ## Database
 |  |
@@ -192,4 +197,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0010-regular-expression-matching](https://github.com/qxl0/Leetcode-p2/tree/master/0010-regular-expression-matching) |
+## Memoization
+|  |
+| ------- |
+| [0464-can-i-win](https://github.com/qxl0/Leetcode-p2/tree/master/0464-can-i-win) |
 <!---LeetCode Topics End-->
