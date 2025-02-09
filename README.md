@@ -11,6 +11,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0239-sliding-window-maximum](https://github.com/qxl0/Leetcode-p2/tree/master/0239-sliding-window-maximum) |
 | [0465-optimal-account-balancing](https://github.com/qxl0/Leetcode-p2/tree/master/0465-optimal-account-balancing) |
 | [0502-ipo](https://github.com/qxl0/Leetcode-p2/tree/master/0502-ipo) |
+| [0673-number-of-longest-increasing-subsequence](https://github.com/qxl0/Leetcode-p2/tree/master/0673-number-of-longest-increasing-subsequence) |
 | [1511-count-number-of-teams](https://github.com/qxl0/Leetcode-p2/tree/master/1511-count-number-of-teams) |
 | [1711-find-valid-matrix-given-row-and-column-sums](https://github.com/qxl0/Leetcode-p2/tree/master/1711-find-valid-matrix-given-row-and-column-sums) |
 | [1741-sort-array-by-increasing-frequency](https://github.com/qxl0/Leetcode-p2/tree/master/1741-sort-array-by-increasing-frequency) |
@@ -39,6 +40,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0465-optimal-account-balancing](https://github.com/qxl0/Leetcode-p2/tree/master/0465-optimal-account-balancing) |
 | [0514-freedom-trail](https://github.com/qxl0/Leetcode-p2/tree/master/0514-freedom-trail) |
 | [0552-student-attendance-record-ii](https://github.com/qxl0/Leetcode-p2/tree/master/0552-student-attendance-record-ii) |
+| [0673-number-of-longest-increasing-subsequence](https://github.com/qxl0/Leetcode-p2/tree/master/0673-number-of-longest-increasing-subsequence) |
 | [1511-count-number-of-teams](https://github.com/qxl0/Leetcode-p2/tree/master/1511-count-number-of-teams) |
 | [1756-minimum-deletions-to-make-string-balanced](https://github.com/qxl0/Leetcode-p2/tree/master/1756-minimum-deletions-to-make-string-balanced) |
 | [3491-find-the-maximum-length-of-valid-subsequence-ii](https://github.com/qxl0/Leetcode-p2/tree/master/3491-find-the-maximum-length-of-valid-subsequence-ii) |
@@ -113,6 +115,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Binary Indexed Tree
 |  |
 | ------- |
+| [0673-number-of-longest-increasing-subsequence](https://github.com/qxl0/Leetcode-p2/tree/master/0673-number-of-longest-increasing-subsequence) |
 | [1511-count-number-of-teams](https://github.com/qxl0/Leetcode-p2/tree/master/1511-count-number-of-teams) |
 ## Stack
 |  |
@@ -213,4 +216,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0465-optimal-account-balancing](https://github.com/qxl0/Leetcode-p2/tree/master/0465-optimal-account-balancing) |
+## Segment Tree
+|  |
+| ------- |
+| [0673-number-of-longest-increasing-subsequence](https://github.com/qxl0/Leetcode-p2/tree/master/0673-number-of-longest-increasing-subsequence) |
 <!---LeetCode Topics End-->
