@@ -7,7 +7,7 @@ class Solution:
             return True
         m,n = len(nums),len(queries)
         dp = [[False]*1001 for _ in range(m)]
-        if m==1 and nums[0]==0: return 0
+        if sum(nums)==0: return 0
         for i in range(m):
             dp[i][0] = True
         for k in range(n):
