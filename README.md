@@ -32,6 +32,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3612-adjacent-increasing-subarrays-detection-i](https://github.com/qxl0/Leetcode-p2/tree/master/3612-adjacent-increasing-subarrays-detection-i) |
 | [3619-adjacent-increasing-subarrays-detection-ii](https://github.com/qxl0/Leetcode-p2/tree/master/3619-adjacent-increasing-subarrays-detection-ii) |
 | [3651-transformed-array](https://github.com/qxl0/Leetcode-p2/tree/master/3651-transformed-array) |
+| [3794-find-the-minimum-amount-of-time-to-brew-potions](https://github.com/qxl0/Leetcode-p2/tree/master/3794-find-the-minimum-amount-of-time-to-brew-potions) |
 | [3795-zero-array-transformation-iv](https://github.com/qxl0/Leetcode-p2/tree/master/3795-zero-array-transformation-iv) |
 ## Dynamic Programming
 |  |
@@ -98,6 +99,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [3498-minimum-array-changes-to-make-differences-equal](https://github.com/qxl0/Leetcode-p2/tree/master/3498-minimum-array-changes-to-make-differences-equal) |
 | [3546-count-substrings-that-satisfy-k-constraint-ii](https://github.com/qxl0/Leetcode-p2/tree/master/3546-count-substrings-that-satisfy-k-constraint-ii) |
+| [3794-find-the-minimum-amount-of-time-to-brew-potions](https://github.com/qxl0/Leetcode-p2/tree/master/3794-find-the-minimum-amount-of-time-to-brew-potions) |
 ## Two Pointers
 |  |
 | ------- |
@@ -149,6 +151,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [3516-design-neighbor-sum-service](https://github.com/qxl0/Leetcode-p2/tree/master/3516-design-neighbor-sum-service) |
 | [3651-transformed-array](https://github.com/qxl0/Leetcode-p2/tree/master/3651-transformed-array) |
+| [3794-find-the-minimum-amount-of-time-to-brew-potions](https://github.com/qxl0/Leetcode-p2/tree/master/3794-find-the-minimum-amount-of-time-to-brew-potions) |
 ## Binary Search
 |  |
 | ------- |
