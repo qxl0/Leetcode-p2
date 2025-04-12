@@ -34,6 +34,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3651-transformed-array](https://github.com/qxl0/Leetcode-p2/tree/master/3651-transformed-array) |
 | [3794-find-the-minimum-amount-of-time-to-brew-potions](https://github.com/qxl0/Leetcode-p2/tree/master/3794-find-the-minimum-amount-of-time-to-brew-potions) |
 | [3795-zero-array-transformation-iv](https://github.com/qxl0/Leetcode-p2/tree/master/3795-zero-array-transformation-iv) |
+| [3832-minimum-cost-to-reach-every-position](https://github.com/qxl0/Leetcode-p2/tree/master/3832-minimum-cost-to-reach-every-position) |
 ## Dynamic Programming
 |  |
 | ------- |
