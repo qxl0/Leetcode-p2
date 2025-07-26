@@ -36,6 +36,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3794-find-the-minimum-amount-of-time-to-brew-potions](https://github.com/qxl0/Leetcode-p2/tree/master/3794-find-the-minimum-amount-of-time-to-brew-potions) |
 | [3795-zero-array-transformation-iv](https://github.com/qxl0/Leetcode-p2/tree/master/3795-zero-array-transformation-iv) |
 | [3832-minimum-cost-to-reach-every-position](https://github.com/qxl0/Leetcode-p2/tree/master/3832-minimum-cost-to-reach-every-position) |
+| [3941-number-of-integers-with-popcount-depth-equal-to-k-ii](https://github.com/qxl0/Leetcode-p2/tree/master/3941-number-of-integers-with-popcount-depth-equal-to-k-ii) |
 ## Dynamic Programming
 |  |
 | ------- |
@@ -238,6 +239,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0673-number-of-longest-increasing-subsequence](https://github.com/qxl0/Leetcode-p2/tree/master/0673-number-of-longest-increasing-subsequence) |
+| [3941-number-of-integers-with-popcount-depth-equal-to-k-ii](https://github.com/qxl0/Leetcode-p2/tree/master/3941-number-of-integers-with-popcount-depth-equal-to-k-ii) |
 ## Graph
 |  |
 | ------- |
