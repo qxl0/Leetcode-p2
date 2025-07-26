@@ -19,6 +19,7 @@ class FenwickTree:
         return self.sum(r) - self.sum(l-1)
 class Solution:
     def popcountDepth(self, nums: List[int], queries: List[List[int]]) -> List[int]:
+        MAXDEP = 6
         def getDepth(x):
             ret = 0
             while x!=1:
@@ -26,7 +27,7 @@ class Solution:
                 ret +=1
             return ret
         n = len(nums)
-        trees = [FenwickTree(n) for _ in range(64)]
+        trees = [FenwickTree(n) for _ in range(MAXDEP)]
         for i in range(n):
             dep = getDepth(nums[i])
             trees[dep].add(i+1, 1)
