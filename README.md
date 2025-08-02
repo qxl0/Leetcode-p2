@@ -122,6 +122,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3546-count-substrings-that-satisfy-k-constraint-ii](https://github.com/qxl0/Leetcode-p2/tree/master/3546-count-substrings-that-satisfy-k-constraint-ii) |
 | [3684-substring-matching-pattern](https://github.com/qxl0/Leetcode-p2/tree/master/3684-substring-matching-pattern) |
 | [3930-longest-palindromic-path-in-graph](https://github.com/qxl0/Leetcode-p2/tree/master/3930-longest-palindromic-path-in-graph) |
+| [3939-process-string-with-special-operations-ii](https://github.com/qxl0/Leetcode-p2/tree/master/3939-process-string-with-special-operations-ii) |
 ## String Matching
 |  |
 | ------- |
@@ -159,6 +160,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3516-design-neighbor-sum-service](https://github.com/qxl0/Leetcode-p2/tree/master/3516-design-neighbor-sum-service) |
 | [3651-transformed-array](https://github.com/qxl0/Leetcode-p2/tree/master/3651-transformed-array) |
 | [3794-find-the-minimum-amount-of-time-to-brew-potions](https://github.com/qxl0/Leetcode-p2/tree/master/3794-find-the-minimum-amount-of-time-to-brew-potions) |
+| [3939-process-string-with-special-operations-ii](https://github.com/qxl0/Leetcode-p2/tree/master/3939-process-string-with-special-operations-ii) |
 ## Binary Search
 |  |
 | ------- |
