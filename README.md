@@ -37,6 +37,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3795-zero-array-transformation-iv](https://github.com/qxl0/Leetcode-p2/tree/master/3795-zero-array-transformation-iv) |
 | [3832-minimum-cost-to-reach-every-position](https://github.com/qxl0/Leetcode-p2/tree/master/3832-minimum-cost-to-reach-every-position) |
 | [3941-number-of-integers-with-popcount-depth-equal-to-k-ii](https://github.com/qxl0/Leetcode-p2/tree/master/3941-number-of-integers-with-popcount-depth-equal-to-k-ii) |
+| [3973-flip-square-submatrix-vertically](https://github.com/qxl0/Leetcode-p2/tree/master/3973-flip-square-submatrix-vertically) |
 ## Dynamic Programming
 |  |
 | ------- |
@@ -91,6 +92,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0741-cherry-pickup](https://github.com/qxl0/Leetcode-p2/tree/master/0741-cherry-pickup) |
 | [1711-find-valid-matrix-given-row-and-column-sums](https://github.com/qxl0/Leetcode-p2/tree/master/1711-find-valid-matrix-given-row-and-column-sums) |
 | [3516-design-neighbor-sum-service](https://github.com/qxl0/Leetcode-p2/tree/master/3516-design-neighbor-sum-service) |
+| [3973-flip-square-submatrix-vertically](https://github.com/qxl0/Leetcode-p2/tree/master/3973-flip-square-submatrix-vertically) |
 ## Hash Table
 |  |
 | ------- |
@@ -110,6 +112,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/qxl0/Leetcode-p2/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
+| [3973-flip-square-submatrix-vertically](https://github.com/qxl0/Leetcode-p2/tree/master/3973-flip-square-submatrix-vertically) |
 ## String
 |  |
 | ------- |
