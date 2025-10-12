@@ -7,8 +7,9 @@ class Solution:
             
             x = nums[randint(l,r)]
             partition(arr,l, r, x)
-            quicksort(arr,l,first-1)
-            quicksort(arr,last+1, r)
+            left, right = first, last
+            quicksort(arr,l,left-1)
+            quicksort(arr,right+1, r)
             return arr
         def partition(arr,l, r, x):
             nonlocal first,last
