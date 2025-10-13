@@ -10,6 +10,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0027-remove-element](https://github.com/qxl0/Leetcode-p2/tree/master/0027-remove-element) |
 | [0075-sort-colors](https://github.com/qxl0/Leetcode-p2/tree/master/0075-sort-colors) |
+| [0128-longest-consecutive-sequence](https://github.com/qxl0/Leetcode-p2/tree/master/0128-longest-consecutive-sequence) |
 | [0239-sliding-window-maximum](https://github.com/qxl0/Leetcode-p2/tree/master/0239-sliding-window-maximum) |
 | [0465-optimal-account-balancing](https://github.com/qxl0/Leetcode-p2/tree/master/0465-optimal-account-balancing) |
 | [0502-ipo](https://github.com/qxl0/Leetcode-p2/tree/master/0502-ipo) |
@@ -102,6 +103,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Hash Table
 |  |
 | ------- |
+| [0128-longest-consecutive-sequence](https://github.com/qxl0/Leetcode-p2/tree/master/0128-longest-consecutive-sequence) |
 | [0726-number-of-atoms](https://github.com/qxl0/Leetcode-p2/tree/master/0726-number-of-atoms) |
 | [1741-sort-array-by-increasing-frequency](https://github.com/qxl0/Leetcode-p2/tree/master/1741-sort-array-by-increasing-frequency) |
 | [3498-minimum-array-changes-to-make-differences-equal](https://github.com/qxl0/Leetcode-p2/tree/master/3498-minimum-array-changes-to-make-differences-equal) |
@@ -288,4 +290,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0948-sort-an-array](https://github.com/qxl0/Leetcode-p2/tree/master/0948-sort-an-array) |
+## Union Find
+|  |
+| ------- |
+| [0128-longest-consecutive-sequence](https://github.com/qxl0/Leetcode-p2/tree/master/0128-longest-consecutive-sequence) |
 <!---LeetCode Topics End-->
