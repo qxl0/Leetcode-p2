@@ -12,6 +12,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0075-sort-colors](https://github.com/qxl0/Leetcode-p2/tree/master/0075-sort-colors) |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/qxl0/Leetcode-p2/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
 | [0128-longest-consecutive-sequence](https://github.com/qxl0/Leetcode-p2/tree/master/0128-longest-consecutive-sequence) |
+| [0169-majority-element](https://github.com/qxl0/Leetcode-p2/tree/master/0169-majority-element) |
 | [0229-majority-element-ii](https://github.com/qxl0/Leetcode-p2/tree/master/0229-majority-element-ii) |
 | [0239-sliding-window-maximum](https://github.com/qxl0/Leetcode-p2/tree/master/0239-sliding-window-maximum) |
 | [0465-optimal-account-balancing](https://github.com/qxl0/Leetcode-p2/tree/master/0465-optimal-account-balancing) |
@@ -76,6 +77,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0075-sort-colors](https://github.com/qxl0/Leetcode-p2/tree/master/0075-sort-colors) |
+| [0169-majority-element](https://github.com/qxl0/Leetcode-p2/tree/master/0169-majority-element) |
 | [0229-majority-element-ii](https://github.com/qxl0/Leetcode-p2/tree/master/0229-majority-element-ii) |
 | [0502-ipo](https://github.com/qxl0/Leetcode-p2/tree/master/0502-ipo) |
 | [0726-number-of-atoms](https://github.com/qxl0/Leetcode-p2/tree/master/0726-number-of-atoms) |
@@ -109,6 +111,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0128-longest-consecutive-sequence](https://github.com/qxl0/Leetcode-p2/tree/master/0128-longest-consecutive-sequence) |
+| [0169-majority-element](https://github.com/qxl0/Leetcode-p2/tree/master/0169-majority-element) |
 | [0229-majority-element-ii](https://github.com/qxl0/Leetcode-p2/tree/master/0229-majority-element-ii) |
 | [0726-number-of-atoms](https://github.com/qxl0/Leetcode-p2/tree/master/0726-number-of-atoms) |
 | [1741-sort-array-by-increasing-frequency](https://github.com/qxl0/Leetcode-p2/tree/master/1741-sort-array-by-increasing-frequency) |
@@ -192,6 +195,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Counting
 |  |
 | ------- |
+| [0169-majority-element](https://github.com/qxl0/Leetcode-p2/tree/master/0169-majority-element) |
 | [0229-majority-element-ii](https://github.com/qxl0/Leetcode-p2/tree/master/0229-majority-element-ii) |
 | [3534-count-almost-equal-pairs-i](https://github.com/qxl0/Leetcode-p2/tree/master/3534-count-almost-equal-pairs-i) |
 ## Heap (Priority Queue)
@@ -280,6 +284,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Divide and Conquer
 |  |
 | ------- |
+| [0169-majority-element](https://github.com/qxl0/Leetcode-p2/tree/master/0169-majority-element) |
 | [0948-sort-an-array](https://github.com/qxl0/Leetcode-p2/tree/master/0948-sort-an-array) |
 ## Merge Sort
 |  |
