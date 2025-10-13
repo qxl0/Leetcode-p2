@@ -24,6 +24,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1511-count-number-of-teams](https://github.com/qxl0/Leetcode-p2/tree/master/1511-count-number-of-teams) |
 | [1711-find-valid-matrix-given-row-and-column-sums](https://github.com/qxl0/Leetcode-p2/tree/master/1711-find-valid-matrix-given-row-and-column-sums) |
 | [1741-sort-array-by-increasing-frequency](https://github.com/qxl0/Leetcode-p2/tree/master/1741-sort-array-by-increasing-frequency) |
+| [2058-concatenation-of-array](https://github.com/qxl0/Leetcode-p2/tree/master/2058-concatenation-of-array) |
 | [3485-maximize-score-of-numbers-in-ranges](https://github.com/qxl0/Leetcode-p2/tree/master/3485-maximize-score-of-numbers-in-ranges) |
 | [3491-find-the-maximum-length-of-valid-subsequence-ii](https://github.com/qxl0/Leetcode-p2/tree/master/3491-find-the-maximum-length-of-valid-subsequence-ii) |
 | [3495-k-th-nearest-obstacle-queries](https://github.com/qxl0/Leetcode-p2/tree/master/3495-k-th-nearest-obstacle-queries) |
@@ -184,6 +185,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Simulation
 |  |
 | ------- |
+| [2058-concatenation-of-array](https://github.com/qxl0/Leetcode-p2/tree/master/2058-concatenation-of-array) |
 | [3516-design-neighbor-sum-service](https://github.com/qxl0/Leetcode-p2/tree/master/3516-design-neighbor-sum-service) |
 | [3651-transformed-array](https://github.com/qxl0/Leetcode-p2/tree/master/3651-transformed-array) |
 | [3794-find-the-minimum-amount-of-time-to-brew-potions](https://github.com/qxl0/Leetcode-p2/tree/master/3794-find-the-minimum-amount-of-time-to-brew-potions) |
