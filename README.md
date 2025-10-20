@@ -19,6 +19,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0128-longest-consecutive-sequence](https://github.com/qxl0/Leetcode-p2/tree/master/0128-longest-consecutive-sequence) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/qxl0/Leetcode-p2/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0169-majority-element](https://github.com/qxl0/Leetcode-p2/tree/master/0169-majority-element) |
+| [0189-rotate-array](https://github.com/qxl0/Leetcode-p2/tree/master/0189-rotate-array) |
 | [0229-majority-element-ii](https://github.com/qxl0/Leetcode-p2/tree/master/0229-majority-element-ii) |
 | [0239-sliding-window-maximum](https://github.com/qxl0/Leetcode-p2/tree/master/0239-sliding-window-maximum) |
 | [0465-optimal-account-balancing](https://github.com/qxl0/Leetcode-p2/tree/master/0465-optimal-account-balancing) |
@@ -155,6 +156,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0088-merge-sorted-array](https://github.com/qxl0/Leetcode-p2/tree/master/0088-merge-sorted-array) |
 | [0125-valid-palindrome](https://github.com/qxl0/Leetcode-p2/tree/master/0125-valid-palindrome) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/qxl0/Leetcode-p2/tree/master/0167-two-sum-ii-input-array-is-sorted) |
+| [0189-rotate-array](https://github.com/qxl0/Leetcode-p2/tree/master/0189-rotate-array) |
 | [0344-reverse-string](https://github.com/qxl0/Leetcode-p2/tree/master/0344-reverse-string) |
 | [0680-valid-palindrome-ii](https://github.com/qxl0/Leetcode-p2/tree/master/0680-valid-palindrome-ii) |
 | [3973-flip-square-submatrix-vertically](https://github.com/qxl0/Leetcode-p2/tree/master/3973-flip-square-submatrix-vertically) |
@@ -242,6 +244,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Math
 |  |
 | ------- |
+| [0189-rotate-array](https://github.com/qxl0/Leetcode-p2/tree/master/0189-rotate-array) |
 | [0464-can-i-win](https://github.com/qxl0/Leetcode-p2/tree/master/0464-can-i-win) |
 | [3496-minimum-number-of-seconds-to-make-mountain-height-zero](https://github.com/qxl0/Leetcode-p2/tree/master/3496-minimum-number-of-seconds-to-make-mountain-height-zero) |
 | [3560-maximum-number-of-moves-to-kill-all-pawns](https://github.com/qxl0/Leetcode-p2/tree/master/3560-maximum-number-of-moves-to-kill-all-pawns) |
