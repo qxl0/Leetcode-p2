@@ -53,6 +53,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3832-minimum-cost-to-reach-every-position](https://github.com/qxl0/Leetcode-p2/tree/master/3832-minimum-cost-to-reach-every-position) |
 | [3941-number-of-integers-with-popcount-depth-equal-to-k-ii](https://github.com/qxl0/Leetcode-p2/tree/master/3941-number-of-integers-with-popcount-depth-equal-to-k-ii) |
 | [3973-flip-square-submatrix-vertically](https://github.com/qxl0/Leetcode-p2/tree/master/3973-flip-square-submatrix-vertically) |
+| [4007-maximum-total-subarray-value-ii](https://github.com/qxl0/Leetcode-p2/tree/master/4007-maximum-total-subarray-value-ii) |
 ## Dynamic Programming
 |  |
 | ------- |
@@ -82,6 +83,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3485-maximize-score-of-numbers-in-ranges](https://github.com/qxl0/Leetcode-p2/tree/master/3485-maximize-score-of-numbers-in-ranges) |
 | [3500-minimum-cost-for-cutting-cake-ii](https://github.com/qxl0/Leetcode-p2/tree/master/3500-minimum-cost-for-cutting-cake-ii) |
 | [3528-reach-end-of-array-with-max-score](https://github.com/qxl0/Leetcode-p2/tree/master/3528-reach-end-of-array-with-max-score) |
+| [4007-maximum-total-subarray-value-ii](https://github.com/qxl0/Leetcode-p2/tree/master/4007-maximum-total-subarray-value-ii) |
 ## Sorting
 |  |
 | ------- |
@@ -236,6 +238,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0948-sort-an-array](https://github.com/qxl0/Leetcode-p2/tree/master/0948-sort-an-array) |
 | [3495-k-th-nearest-obstacle-queries](https://github.com/qxl0/Leetcode-p2/tree/master/3495-k-th-nearest-obstacle-queries) |
 | [3610-find-x-sum-of-all-k-long-subarrays-i](https://github.com/qxl0/Leetcode-p2/tree/master/3610-find-x-sum-of-all-k-long-subarrays-i) |
+| [4007-maximum-total-subarray-value-ii](https://github.com/qxl0/Leetcode-p2/tree/master/4007-maximum-total-subarray-value-ii) |
 ## Math
 |  |
 | ------- |
@@ -301,6 +304,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0673-number-of-longest-increasing-subsequence](https://github.com/qxl0/Leetcode-p2/tree/master/0673-number-of-longest-increasing-subsequence) |
 | [3941-number-of-integers-with-popcount-depth-equal-to-k-ii](https://github.com/qxl0/Leetcode-p2/tree/master/3941-number-of-integers-with-popcount-depth-equal-to-k-ii) |
+| [4007-maximum-total-subarray-value-ii](https://github.com/qxl0/Leetcode-p2/tree/master/4007-maximum-total-subarray-value-ii) |
 ## Graph
 |  |
 | ------- |
