@@ -15,6 +15,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0041-first-missing-positive](https://github.com/qxl0/Leetcode-p2/tree/master/0041-first-missing-positive) |
 | [0075-sort-colors](https://github.com/qxl0/Leetcode-p2/tree/master/0075-sort-colors) |
 | [0088-merge-sorted-array](https://github.com/qxl0/Leetcode-p2/tree/master/0088-merge-sorted-array) |
+| [0121-best-time-to-buy-and-sell-stock](https://github.com/qxl0/Leetcode-p2/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/qxl0/Leetcode-p2/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
 | [0128-longest-consecutive-sequence](https://github.com/qxl0/Leetcode-p2/tree/master/0128-longest-consecutive-sequence) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/qxl0/Leetcode-p2/tree/master/0167-two-sum-ii-input-array-is-sorted) |
@@ -59,6 +60,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0010-regular-expression-matching](https://github.com/qxl0/Leetcode-p2/tree/master/0010-regular-expression-matching) |
+| [0121-best-time-to-buy-and-sell-stock](https://github.com/qxl0/Leetcode-p2/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/qxl0/Leetcode-p2/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
 | [0464-can-i-win](https://github.com/qxl0/Leetcode-p2/tree/master/0464-can-i-win) |
 | [0465-optimal-account-balancing](https://github.com/qxl0/Leetcode-p2/tree/master/0465-optimal-account-balancing) |
