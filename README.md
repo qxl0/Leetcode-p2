@@ -26,6 +26,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0465-optimal-account-balancing](https://github.com/qxl0/Leetcode-p2/tree/master/0465-optimal-account-balancing) |
 | [0502-ipo](https://github.com/qxl0/Leetcode-p2/tree/master/0502-ipo) |
 | [0560-subarray-sum-equals-k](https://github.com/qxl0/Leetcode-p2/tree/master/0560-subarray-sum-equals-k) |
+| [0658-find-k-closest-elements](https://github.com/qxl0/Leetcode-p2/tree/master/0658-find-k-closest-elements) |
 | [0673-number-of-longest-increasing-subsequence](https://github.com/qxl0/Leetcode-p2/tree/master/0673-number-of-longest-increasing-subsequence) |
 | [0741-cherry-pickup](https://github.com/qxl0/Leetcode-p2/tree/master/0741-cherry-pickup) |
 | [0948-sort-an-array](https://github.com/qxl0/Leetcode-p2/tree/master/0948-sort-an-array) |
@@ -97,6 +98,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0169-majority-element](https://github.com/qxl0/Leetcode-p2/tree/master/0169-majority-element) |
 | [0229-majority-element-ii](https://github.com/qxl0/Leetcode-p2/tree/master/0229-majority-element-ii) |
 | [0502-ipo](https://github.com/qxl0/Leetcode-p2/tree/master/0502-ipo) |
+| [0658-find-k-closest-elements](https://github.com/qxl0/Leetcode-p2/tree/master/0658-find-k-closest-elements) |
 | [0726-number-of-atoms](https://github.com/qxl0/Leetcode-p2/tree/master/0726-number-of-atoms) |
 | [0948-sort-an-array](https://github.com/qxl0/Leetcode-p2/tree/master/0948-sort-an-array) |
 | [1741-sort-array-by-increasing-frequency](https://github.com/qxl0/Leetcode-p2/tree/master/1741-sort-array-by-increasing-frequency) |
@@ -163,6 +165,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0189-rotate-array](https://github.com/qxl0/Leetcode-p2/tree/master/0189-rotate-array) |
 | [0344-reverse-string](https://github.com/qxl0/Leetcode-p2/tree/master/0344-reverse-string) |
 | [0567-permutation-in-string](https://github.com/qxl0/Leetcode-p2/tree/master/0567-permutation-in-string) |
+| [0658-find-k-closest-elements](https://github.com/qxl0/Leetcode-p2/tree/master/0658-find-k-closest-elements) |
 | [0680-valid-palindrome-ii](https://github.com/qxl0/Leetcode-p2/tree/master/0680-valid-palindrome-ii) |
 | [3973-flip-square-submatrix-vertically](https://github.com/qxl0/Leetcode-p2/tree/master/3973-flip-square-submatrix-vertically) |
 ## String
@@ -205,6 +208,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0239-sliding-window-maximum](https://github.com/qxl0/Leetcode-p2/tree/master/0239-sliding-window-maximum) |
 | [0424-longest-repeating-character-replacement](https://github.com/qxl0/Leetcode-p2/tree/master/0424-longest-repeating-character-replacement) |
 | [0567-permutation-in-string](https://github.com/qxl0/Leetcode-p2/tree/master/0567-permutation-in-string) |
+| [0658-find-k-closest-elements](https://github.com/qxl0/Leetcode-p2/tree/master/0658-find-k-closest-elements) |
 | [0727-minimum-window-subsequence](https://github.com/qxl0/Leetcode-p2/tree/master/0727-minimum-window-subsequence) |
 | [3479-count-the-number-of-substrings-with-dominant-ones](https://github.com/qxl0/Leetcode-p2/tree/master/3479-count-the-number-of-substrings-with-dominant-ones) |
 | [3546-count-substrings-that-satisfy-k-constraint-ii](https://github.com/qxl0/Leetcode-p2/tree/master/3546-count-substrings-that-satisfy-k-constraint-ii) |
@@ -230,6 +234,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/qxl0/Leetcode-p2/tree/master/0167-two-sum-ii-input-array-is-sorted) |
+| [0658-find-k-closest-elements](https://github.com/qxl0/Leetcode-p2/tree/master/0658-find-k-closest-elements) |
 | [3485-maximize-score-of-numbers-in-ranges](https://github.com/qxl0/Leetcode-p2/tree/master/3485-maximize-score-of-numbers-in-ranges) |
 | [3496-minimum-number-of-seconds-to-make-mountain-height-zero](https://github.com/qxl0/Leetcode-p2/tree/master/3496-minimum-number-of-seconds-to-make-mountain-height-zero) |
 | [3546-count-substrings-that-satisfy-k-constraint-ii](https://github.com/qxl0/Leetcode-p2/tree/master/3546-count-substrings-that-satisfy-k-constraint-ii) |
@@ -245,6 +250,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0239-sliding-window-maximum](https://github.com/qxl0/Leetcode-p2/tree/master/0239-sliding-window-maximum) |
 | [0502-ipo](https://github.com/qxl0/Leetcode-p2/tree/master/0502-ipo) |
+| [0658-find-k-closest-elements](https://github.com/qxl0/Leetcode-p2/tree/master/0658-find-k-closest-elements) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/qxl0/Leetcode-p2/tree/master/0803-cheapest-flights-within-k-stops) |
 | [0948-sort-an-array](https://github.com/qxl0/Leetcode-p2/tree/master/0948-sort-an-array) |
 | [3495-k-th-nearest-obstacle-queries](https://github.com/qxl0/Leetcode-p2/tree/master/3495-k-th-nearest-obstacle-queries) |
