@@ -214,6 +214,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0682-baseball-game](https://github.com/qxl0/Leetcode-p2/tree/master/0682-baseball-game) |
 | [0726-number-of-atoms](https://github.com/qxl0/Leetcode-p2/tree/master/0726-number-of-atoms) |
 | [0739-daily-temperatures](https://github.com/qxl0/Leetcode-p2/tree/master/0739-daily-temperatures) |
+| [0937-online-stock-span](https://github.com/qxl0/Leetcode-p2/tree/master/0937-online-stock-span) |
 | [1756-minimum-deletions-to-make-string-balanced](https://github.com/qxl0/Leetcode-p2/tree/master/1756-minimum-deletions-to-make-string-balanced) |
 ## Sliding Window
 |  |
@@ -236,6 +237,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0232-implement-queue-using-stacks](https://github.com/qxl0/Leetcode-p2/tree/master/0232-implement-queue-using-stacks) |
+| [0937-online-stock-span](https://github.com/qxl0/Leetcode-p2/tree/master/0937-online-stock-span) |
 | [3516-design-neighbor-sum-service](https://github.com/qxl0/Leetcode-p2/tree/master/3516-design-neighbor-sum-service) |
 ## Simulation
 |  |
@@ -380,4 +382,9 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0739-daily-temperatures](https://github.com/qxl0/Leetcode-p2/tree/master/0739-daily-temperatures) |
+| [0937-online-stock-span](https://github.com/qxl0/Leetcode-p2/tree/master/0937-online-stock-span) |
+## Data Stream
+|  |
+| ------- |
+| [0937-online-stock-span](https://github.com/qxl0/Leetcode-p2/tree/master/0937-online-stock-span) |
 <!---LeetCode Topics End-->
