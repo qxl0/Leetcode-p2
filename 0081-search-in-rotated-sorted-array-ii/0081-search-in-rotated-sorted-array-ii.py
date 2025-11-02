@@ -20,5 +20,5 @@ class Solution:
                 else:
                     l = mid + 1
             else: # nums[l] == v
-                l -= 1
+                l += 1
         return nums[l]==target
