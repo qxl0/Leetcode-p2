@@ -1,21 +1,26 @@
 class Solution:
-    def shipWithinDays(self, weights: List[int], days: int) -> int:
-        n = len(weights)        
-        def days2ship(x):            
-            c = 0
-            ship = 0
-            for w in weights:                
-                if ship+w>x:
-                    c += 1
-                    ship =0                
-                ship += w
-            return c+1
-        l,r = max(weights), sum(weights)
+    def shipWithinDays(self, weights: List[int], days: int) -> int:        
+        n = len(weights)
+        def checkok(mid):            
+            count = 0
+            i = 0
+            while i<n:
+                sm = weights[i]
+                j = i+1
+                while j<n and sm+weights[j]<=mid:
+                    sm += weights[j]
+                    j += 1
+                count += 1
+                if count > days:
+                    return False
+                i = j
+            return True
+
+        l, r = max(weights), sum(weights)
         while l<r:
-            m = l+(r-l)//2
-            d = days2ship(m)
-            if d > days:
-                l = m+1
+            mid = l+(r-l)//2
+            if checkok(mid):
+                r = mid
             else:
-                r = m
+                l = mid+1
         return l
