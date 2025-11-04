@@ -16,6 +16,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0074-search-a-2d-matrix](https://github.com/qxl0/Leetcode-p2/tree/master/0074-search-a-2d-matrix) |
 | [0075-sort-colors](https://github.com/qxl0/Leetcode-p2/tree/master/0075-sort-colors) |
 | [0081-search-in-rotated-sorted-array-ii](https://github.com/qxl0/Leetcode-p2/tree/master/0081-search-in-rotated-sorted-array-ii) |
+| [0085-maximal-rectangle](https://github.com/qxl0/Leetcode-p2/tree/master/0085-maximal-rectangle) |
 | [0088-merge-sorted-array](https://github.com/qxl0/Leetcode-p2/tree/master/0088-merge-sorted-array) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/qxl0/Leetcode-p2/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/qxl0/Leetcode-p2/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
@@ -68,6 +69,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0010-regular-expression-matching](https://github.com/qxl0/Leetcode-p2/tree/master/0010-regular-expression-matching) |
 | [0022-generate-parentheses](https://github.com/qxl0/Leetcode-p2/tree/master/0022-generate-parentheses) |
+| [0085-maximal-rectangle](https://github.com/qxl0/Leetcode-p2/tree/master/0085-maximal-rectangle) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/qxl0/Leetcode-p2/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/qxl0/Leetcode-p2/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
 | [0464-can-i-win](https://github.com/qxl0/Leetcode-p2/tree/master/0464-can-i-win) |
@@ -131,6 +133,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0036-valid-sudoku](https://github.com/qxl0/Leetcode-p2/tree/master/0036-valid-sudoku) |
 | [0074-search-a-2d-matrix](https://github.com/qxl0/Leetcode-p2/tree/master/0074-search-a-2d-matrix) |
+| [0085-maximal-rectangle](https://github.com/qxl0/Leetcode-p2/tree/master/0085-maximal-rectangle) |
 | [0741-cherry-pickup](https://github.com/qxl0/Leetcode-p2/tree/master/0741-cherry-pickup) |
 | [1711-find-valid-matrix-given-row-and-column-sums](https://github.com/qxl0/Leetcode-p2/tree/master/1711-find-valid-matrix-given-row-and-column-sums) |
 | [3516-design-neighbor-sum-service](https://github.com/qxl0/Leetcode-p2/tree/master/3516-design-neighbor-sum-service) |
@@ -213,6 +216,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0020-valid-parentheses](https://github.com/qxl0/Leetcode-p2/tree/master/0020-valid-parentheses) |
+| [0085-maximal-rectangle](https://github.com/qxl0/Leetcode-p2/tree/master/0085-maximal-rectangle) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/qxl0/Leetcode-p2/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0232-implement-queue-using-stacks](https://github.com/qxl0/Leetcode-p2/tree/master/0232-implement-queue-using-stacks) |
 | [0682-baseball-game](https://github.com/qxl0/Leetcode-p2/tree/master/0682-baseball-game) |
@@ -388,6 +392,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Monotonic Stack
 |  |
 | ------- |
+| [0085-maximal-rectangle](https://github.com/qxl0/Leetcode-p2/tree/master/0085-maximal-rectangle) |
 | [0739-daily-temperatures](https://github.com/qxl0/Leetcode-p2/tree/master/0739-daily-temperatures) |
 | [0937-online-stock-span](https://github.com/qxl0/Leetcode-p2/tree/master/0937-online-stock-span) |
 ## Data Stream
