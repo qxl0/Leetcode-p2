@@ -12,10 +12,11 @@ class Solution:
             ret = presum[n-1]
             for j in range(n-k+1):
                 cur = presum[j]-(presum[i-1] if i>0 else 0)
-                largest = max(cur, dfs(j+1, k-1))
-                ret = min(ret, largest)
                 if cur >= ret:
                     break
+                largest = max(cur, dfs(j+1, k-1))
+                ret = min(ret, largest)
+                
             dp[i][k] = ret
             return ret
 
