@@ -40,6 +40,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0741-cherry-pickup](https://github.com/qxl0/Leetcode-p2/tree/master/0741-cherry-pickup) |
 | [0948-sort-an-array](https://github.com/qxl0/Leetcode-p2/tree/master/0948-sort-an-array) |
 | [1056-capacity-to-ship-packages-within-d-days](https://github.com/qxl0/Leetcode-p2/tree/master/1056-capacity-to-ship-packages-within-d-days) |
+| [1185-find-in-mountain-array](https://github.com/qxl0/Leetcode-p2/tree/master/1185-find-in-mountain-array) |
 | [1511-count-number-of-teams](https://github.com/qxl0/Leetcode-p2/tree/master/1511-count-number-of-teams) |
 | [1711-find-valid-matrix-given-row-and-column-sums](https://github.com/qxl0/Leetcode-p2/tree/master/1711-find-valid-matrix-given-row-and-column-sums) |
 | [1741-sort-array-by-increasing-frequency](https://github.com/qxl0/Leetcode-p2/tree/master/1741-sort-array-by-increasing-frequency) |
@@ -277,6 +278,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0658-find-k-closest-elements](https://github.com/qxl0/Leetcode-p2/tree/master/0658-find-k-closest-elements) |
 | [1023-time-based-key-value-store](https://github.com/qxl0/Leetcode-p2/tree/master/1023-time-based-key-value-store) |
 | [1056-capacity-to-ship-packages-within-d-days](https://github.com/qxl0/Leetcode-p2/tree/master/1056-capacity-to-ship-packages-within-d-days) |
+| [1185-find-in-mountain-array](https://github.com/qxl0/Leetcode-p2/tree/master/1185-find-in-mountain-array) |
 | [3485-maximize-score-of-numbers-in-ranges](https://github.com/qxl0/Leetcode-p2/tree/master/3485-maximize-score-of-numbers-in-ranges) |
 | [3496-minimum-number-of-seconds-to-make-mountain-height-zero](https://github.com/qxl0/Leetcode-p2/tree/master/3496-minimum-number-of-seconds-to-make-mountain-height-zero) |
 | [3546-count-substrings-that-satisfy-k-constraint-ii](https://github.com/qxl0/Leetcode-p2/tree/master/3546-count-substrings-that-satisfy-k-constraint-ii) |
@@ -413,4 +415,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0937-online-stock-span](https://github.com/qxl0/Leetcode-p2/tree/master/0937-online-stock-span) |
+## Interactive
+|  |
+| ------- |
+| [1185-find-in-mountain-array](https://github.com/qxl0/Leetcode-p2/tree/master/1185-find-in-mountain-array) |
 <!---LeetCode Topics End-->
