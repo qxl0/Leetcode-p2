@@ -4,6 +4,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Linked List
 |  |
 | ------- |
+| [0206-reverse-linked-list](https://github.com/qxl0/Leetcode-p2/tree/master/0206-reverse-linked-list) |
 | [2182-find-the-minimum-and-maximum-number-of-nodes-between-critical-points](https://github.com/qxl0/Leetcode-p2/tree/master/2182-find-the-minimum-and-maximum-number-of-nodes-between-critical-points) |
 ## Array
 |  |
@@ -354,6 +355,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0010-regular-expression-matching](https://github.com/qxl0/Leetcode-p2/tree/master/0010-regular-expression-matching) |
+| [0206-reverse-linked-list](https://github.com/qxl0/Leetcode-p2/tree/master/0206-reverse-linked-list) |
 | [3601-find-the-k-th-character-in-string-game-ii](https://github.com/qxl0/Leetcode-p2/tree/master/3601-find-the-k-th-character-in-string-game-ii) |
 ## Memoization
 |  |
