@@ -205,6 +205,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0076-minimum-window-substring](https://github.com/qxl0/Leetcode-p2/tree/master/0076-minimum-window-substring) |
 | [0125-valid-palindrome](https://github.com/qxl0/Leetcode-p2/tree/master/0125-valid-palindrome) |
 | [0344-reverse-string](https://github.com/qxl0/Leetcode-p2/tree/master/0344-reverse-string) |
+| [0394-decode-string](https://github.com/qxl0/Leetcode-p2/tree/master/0394-decode-string) |
 | [0424-longest-repeating-character-replacement](https://github.com/qxl0/Leetcode-p2/tree/master/0424-longest-repeating-character-replacement) |
 | [0514-freedom-trail](https://github.com/qxl0/Leetcode-p2/tree/master/0514-freedom-trail) |
 | [0567-permutation-in-string](https://github.com/qxl0/Leetcode-p2/tree/master/0567-permutation-in-string) |
@@ -236,6 +237,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0085-maximal-rectangle](https://github.com/qxl0/Leetcode-p2/tree/master/0085-maximal-rectangle) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/qxl0/Leetcode-p2/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0232-implement-queue-using-stacks](https://github.com/qxl0/Leetcode-p2/tree/master/0232-implement-queue-using-stacks) |
+| [0394-decode-string](https://github.com/qxl0/Leetcode-p2/tree/master/0394-decode-string) |
 | [0682-baseball-game](https://github.com/qxl0/Leetcode-p2/tree/master/0682-baseball-game) |
 | [0726-number-of-atoms](https://github.com/qxl0/Leetcode-p2/tree/master/0726-number-of-atoms) |
 | [0739-daily-temperatures](https://github.com/qxl0/Leetcode-p2/tree/master/0739-daily-temperatures) |
@@ -363,6 +365,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0010-regular-expression-matching](https://github.com/qxl0/Leetcode-p2/tree/master/0010-regular-expression-matching) |
 | [0206-reverse-linked-list](https://github.com/qxl0/Leetcode-p2/tree/master/0206-reverse-linked-list) |
+| [0394-decode-string](https://github.com/qxl0/Leetcode-p2/tree/master/0394-decode-string) |
 | [3601-find-the-k-th-character-in-string-game-ii](https://github.com/qxl0/Leetcode-p2/tree/master/3601-find-the-k-th-character-in-string-game-ii) |
 ## Memoization
 |  |
