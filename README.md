@@ -127,12 +127,14 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0104-maximum-depth-of-binary-tree](https://github.com/qxl0/Leetcode-p2/tree/master/0104-maximum-depth-of-binary-tree) |
+| [0110-balanced-binary-tree](https://github.com/qxl0/Leetcode-p2/tree/master/0110-balanced-binary-tree) |
 | [0226-invert-binary-tree](https://github.com/qxl0/Leetcode-p2/tree/master/0226-invert-binary-tree) |
 | [1653-number-of-good-leaf-nodes-pairs](https://github.com/qxl0/Leetcode-p2/tree/master/1653-number-of-good-leaf-nodes-pairs) |
 ## Depth-First Search
 |  |
 | ------- |
 | [0104-maximum-depth-of-binary-tree](https://github.com/qxl0/Leetcode-p2/tree/master/0104-maximum-depth-of-binary-tree) |
+| [0110-balanced-binary-tree](https://github.com/qxl0/Leetcode-p2/tree/master/0110-balanced-binary-tree) |
 | [0226-invert-binary-tree](https://github.com/qxl0/Leetcode-p2/tree/master/0226-invert-binary-tree) |
 | [0514-freedom-trail](https://github.com/qxl0/Leetcode-p2/tree/master/0514-freedom-trail) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/qxl0/Leetcode-p2/tree/master/0803-cheapest-flights-within-k-stops) |
@@ -141,6 +143,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0104-maximum-depth-of-binary-tree](https://github.com/qxl0/Leetcode-p2/tree/master/0104-maximum-depth-of-binary-tree) |
+| [0110-balanced-binary-tree](https://github.com/qxl0/Leetcode-p2/tree/master/0110-balanced-binary-tree) |
 | [0226-invert-binary-tree](https://github.com/qxl0/Leetcode-p2/tree/master/0226-invert-binary-tree) |
 | [1653-number-of-good-leaf-nodes-pairs](https://github.com/qxl0/Leetcode-p2/tree/master/1653-number-of-good-leaf-nodes-pairs) |
 ## Matrix
