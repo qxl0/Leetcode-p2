@@ -129,6 +129,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0104-maximum-depth-of-binary-tree](https://github.com/qxl0/Leetcode-p2/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0110-balanced-binary-tree](https://github.com/qxl0/Leetcode-p2/tree/master/0110-balanced-binary-tree) |
 | [0226-invert-binary-tree](https://github.com/qxl0/Leetcode-p2/tree/master/0226-invert-binary-tree) |
+| [0572-subtree-of-another-tree](https://github.com/qxl0/Leetcode-p2/tree/master/0572-subtree-of-another-tree) |
 | [1653-number-of-good-leaf-nodes-pairs](https://github.com/qxl0/Leetcode-p2/tree/master/1653-number-of-good-leaf-nodes-pairs) |
 ## Depth-First Search
 |  |
@@ -137,6 +138,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0110-balanced-binary-tree](https://github.com/qxl0/Leetcode-p2/tree/master/0110-balanced-binary-tree) |
 | [0226-invert-binary-tree](https://github.com/qxl0/Leetcode-p2/tree/master/0226-invert-binary-tree) |
 | [0514-freedom-trail](https://github.com/qxl0/Leetcode-p2/tree/master/0514-freedom-trail) |
+| [0572-subtree-of-another-tree](https://github.com/qxl0/Leetcode-p2/tree/master/0572-subtree-of-another-tree) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/qxl0/Leetcode-p2/tree/master/0803-cheapest-flights-within-k-stops) |
 | [1653-number-of-good-leaf-nodes-pairs](https://github.com/qxl0/Leetcode-p2/tree/master/1653-number-of-good-leaf-nodes-pairs) |
 ## Binary Tree
@@ -145,6 +147,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0104-maximum-depth-of-binary-tree](https://github.com/qxl0/Leetcode-p2/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0110-balanced-binary-tree](https://github.com/qxl0/Leetcode-p2/tree/master/0110-balanced-binary-tree) |
 | [0226-invert-binary-tree](https://github.com/qxl0/Leetcode-p2/tree/master/0226-invert-binary-tree) |
+| [0572-subtree-of-another-tree](https://github.com/qxl0/Leetcode-p2/tree/master/0572-subtree-of-another-tree) |
 | [1653-number-of-good-leaf-nodes-pairs](https://github.com/qxl0/Leetcode-p2/tree/master/1653-number-of-good-leaf-nodes-pairs) |
 ## Matrix
 |  |
@@ -232,6 +235,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/qxl0/Leetcode-p2/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
+| [0572-subtree-of-another-tree](https://github.com/qxl0/Leetcode-p2/tree/master/0572-subtree-of-another-tree) |
 | [3684-substring-matching-pattern](https://github.com/qxl0/Leetcode-p2/tree/master/3684-substring-matching-pattern) |
 ## Binary Indexed Tree
 |  |
@@ -442,4 +446,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1185-find-in-mountain-array](https://github.com/qxl0/Leetcode-p2/tree/master/1185-find-in-mountain-array) |
+## Hash Function
+|  |
+| ------- |
+| [0572-subtree-of-another-tree](https://github.com/qxl0/Leetcode-p2/tree/master/0572-subtree-of-another-tree) |
 <!---LeetCode Topics End-->
