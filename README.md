@@ -41,6 +41,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0682-baseball-game](https://github.com/qxl0/Leetcode-p2/tree/master/0682-baseball-game) |
 | [0739-daily-temperatures](https://github.com/qxl0/Leetcode-p2/tree/master/0739-daily-temperatures) |
 | [0741-cherry-pickup](https://github.com/qxl0/Leetcode-p2/tree/master/0741-cherry-pickup) |
+| [0772-construct-quad-tree](https://github.com/qxl0/Leetcode-p2/tree/master/0772-construct-quad-tree) |
 | [0948-sort-an-array](https://github.com/qxl0/Leetcode-p2/tree/master/0948-sort-an-array) |
 | [1056-capacity-to-ship-packages-within-d-days](https://github.com/qxl0/Leetcode-p2/tree/master/1056-capacity-to-ship-packages-within-d-days) |
 | [1185-find-in-mountain-array](https://github.com/qxl0/Leetcode-p2/tree/master/1185-find-in-mountain-array) |
@@ -136,6 +137,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/qxl0/Leetcode-p2/tree/master/0235-lowest-common-ancestor-of-a-binary-search-tree) |
 | [0450-delete-node-in-a-bst](https://github.com/qxl0/Leetcode-p2/tree/master/0450-delete-node-in-a-bst) |
 | [0572-subtree-of-another-tree](https://github.com/qxl0/Leetcode-p2/tree/master/0572-subtree-of-another-tree) |
+| [0772-construct-quad-tree](https://github.com/qxl0/Leetcode-p2/tree/master/0772-construct-quad-tree) |
 | [1653-number-of-good-leaf-nodes-pairs](https://github.com/qxl0/Leetcode-p2/tree/master/1653-number-of-good-leaf-nodes-pairs) |
 ## Depth-First Search
 |  |
@@ -168,6 +170,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0074-search-a-2d-matrix](https://github.com/qxl0/Leetcode-p2/tree/master/0074-search-a-2d-matrix) |
 | [0085-maximal-rectangle](https://github.com/qxl0/Leetcode-p2/tree/master/0085-maximal-rectangle) |
 | [0741-cherry-pickup](https://github.com/qxl0/Leetcode-p2/tree/master/0741-cherry-pickup) |
+| [0772-construct-quad-tree](https://github.com/qxl0/Leetcode-p2/tree/master/0772-construct-quad-tree) |
 | [1711-find-valid-matrix-given-row-and-column-sums](https://github.com/qxl0/Leetcode-p2/tree/master/1711-find-valid-matrix-given-row-and-column-sums) |
 | [3516-design-neighbor-sum-service](https://github.com/qxl0/Leetcode-p2/tree/master/3516-design-neighbor-sum-service) |
 | [3973-flip-square-submatrix-vertically](https://github.com/qxl0/Leetcode-p2/tree/master/3973-flip-square-submatrix-vertically) |
@@ -425,6 +428,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0004-median-of-two-sorted-arrays](https://github.com/qxl0/Leetcode-p2/tree/master/0004-median-of-two-sorted-arrays) |
 | [0169-majority-element](https://github.com/qxl0/Leetcode-p2/tree/master/0169-majority-element) |
+| [0772-construct-quad-tree](https://github.com/qxl0/Leetcode-p2/tree/master/0772-construct-quad-tree) |
 | [0948-sort-an-array](https://github.com/qxl0/Leetcode-p2/tree/master/0948-sort-an-array) |
 ## Merge Sort
 |  |
