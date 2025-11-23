@@ -7,14 +7,13 @@
 class Solution:
     def rob(self, root: Optional[TreeNode]) -> int:
         def dfs(node):
-            if not node: 
+            if not node:
                 return 0,0
             lr,lnr = dfs(node.left)
             rr,rnr = dfs(node.right)
 
-            rob = node.val+lnr+rnr
-            norob = max(lr,lnr)+max(rr,rnr)
-            return rob,norob
-
+            r = node.val + lnr + rnr 
+            nr = max(lr,lnr)+max(rr,rnr)
+            return r,nr 
         r,nr = dfs(root)
         return max(r,nr)
