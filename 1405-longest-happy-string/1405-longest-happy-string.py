@@ -5,22 +5,20 @@ class Solution:
             if x>0: 
                 heappush(q,(-x,xc))
         ans = ''
-        while len(q)>=2:
+        while q:
+            if len(q)==1:
+                x,xc = heappop(q)
+                ans += xc*min(2, -x)
+                return ans
             x,xc = heappop(q)
             y,yc = heappop(q)
-            k = min(2, -x)
+            k = min(2, 1-x+y)
             ans += xc*k
             ans += yc
             if -x>k:
                 heappush(q, (x+k,xc))
             if -y>1:
                 heappush(q, (y+1,yc))
-        if q:
-            x,xc = heappop(q)
-            if -x>=3:
-                ans += xc*2
-            else:
-                ans += xc*(-x)
         
         return ans
         
