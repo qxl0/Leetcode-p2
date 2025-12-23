@@ -51,6 +51,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1711-find-valid-matrix-given-row-and-column-sums](https://github.com/qxl0/Leetcode-p2/tree/master/1711-find-valid-matrix-given-row-and-column-sums) |
 | [1741-sort-array-by-increasing-frequency](https://github.com/qxl0/Leetcode-p2/tree/master/1741-sort-array-by-increasing-frequency) |
 | [1834-single-threaded-cpu](https://github.com/qxl0/Leetcode-p2/tree/master/1834-single-threaded-cpu) |
+| [1863-sum-of-all-subset-xor-totals](https://github.com/qxl0/Leetcode-p2/tree/master/1863-sum-of-all-subset-xor-totals) |
 | [2035-partition-array-into-two-arrays-to-minimize-sum-difference](https://github.com/qxl0/Leetcode-p2/tree/master/2035-partition-array-into-two-arrays-to-minimize-sum-difference) |
 | [2058-concatenation-of-array](https://github.com/qxl0/Leetcode-p2/tree/master/2058-concatenation-of-array) |
 | [2262-solving-questions-with-brainpower](https://github.com/qxl0/Leetcode-p2/tree/master/2262-solving-questions-with-brainpower) |
@@ -315,6 +316,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Enumeration
 |  |
 | ------- |
+| [1863-sum-of-all-subset-xor-totals](https://github.com/qxl0/Leetcode-p2/tree/master/1863-sum-of-all-subset-xor-totals) |
 | [3479-count-the-number-of-substrings-with-dominant-ones](https://github.com/qxl0/Leetcode-p2/tree/master/3479-count-the-number-of-substrings-with-dominant-ones) |
 | [3534-count-almost-equal-pairs-i](https://github.com/qxl0/Leetcode-p2/tree/master/3534-count-almost-equal-pairs-i) |
 ## Design
@@ -378,6 +380,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0150-evaluate-reverse-polish-notation](https://github.com/qxl0/Leetcode-p2/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0189-rotate-array](https://github.com/qxl0/Leetcode-p2/tree/master/0189-rotate-array) |
 | [0464-can-i-win](https://github.com/qxl0/Leetcode-p2/tree/master/0464-can-i-win) |
+| [1863-sum-of-all-subset-xor-totals](https://github.com/qxl0/Leetcode-p2/tree/master/1863-sum-of-all-subset-xor-totals) |
 | [3496-minimum-number-of-seconds-to-make-mountain-height-zero](https://github.com/qxl0/Leetcode-p2/tree/master/3496-minimum-number-of-seconds-to-make-mountain-height-zero) |
 | [3560-maximum-number-of-moves-to-kill-all-pawns](https://github.com/qxl0/Leetcode-p2/tree/master/3560-maximum-number-of-moves-to-kill-all-pawns) |
 | [3601-find-the-k-th-character-in-string-game-ii](https://github.com/qxl0/Leetcode-p2/tree/master/3601-find-the-k-th-character-in-string-game-ii) |
@@ -387,6 +390,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0464-can-i-win](https://github.com/qxl0/Leetcode-p2/tree/master/0464-can-i-win) |
 | [0465-optimal-account-balancing](https://github.com/qxl0/Leetcode-p2/tree/master/0465-optimal-account-balancing) |
+| [1863-sum-of-all-subset-xor-totals](https://github.com/qxl0/Leetcode-p2/tree/master/1863-sum-of-all-subset-xor-totals) |
 | [2035-partition-array-into-two-arrays-to-minimize-sum-difference](https://github.com/qxl0/Leetcode-p2/tree/master/2035-partition-array-into-two-arrays-to-minimize-sum-difference) |
 | [3560-maximum-number-of-moves-to-kill-all-pawns](https://github.com/qxl0/Leetcode-p2/tree/master/3560-maximum-number-of-moves-to-kill-all-pawns) |
 | [3601-find-the-k-th-character-in-string-game-ii](https://github.com/qxl0/Leetcode-p2/tree/master/3601-find-the-k-th-character-in-string-game-ii) |
@@ -444,6 +448,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0022-generate-parentheses](https://github.com/qxl0/Leetcode-p2/tree/master/0022-generate-parentheses) |
 | [0465-optimal-account-balancing](https://github.com/qxl0/Leetcode-p2/tree/master/0465-optimal-account-balancing) |
+| [1863-sum-of-all-subset-xor-totals](https://github.com/qxl0/Leetcode-p2/tree/master/1863-sum-of-all-subset-xor-totals) |
 ## Segment Tree
 |  |
 | ------- |
@@ -516,4 +521,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [2035-partition-array-into-two-arrays-to-minimize-sum-difference](https://github.com/qxl0/Leetcode-p2/tree/master/2035-partition-array-into-two-arrays-to-minimize-sum-difference) |
+## Combinatorics
+|  |
+| ------- |
+| [1863-sum-of-all-subset-xor-totals](https://github.com/qxl0/Leetcode-p2/tree/master/1863-sum-of-all-subset-xor-totals) |
 <!---LeetCode Topics End-->
