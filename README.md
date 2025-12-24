@@ -271,6 +271,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1023-time-based-key-value-store](https://github.com/qxl0/Leetcode-p2/tree/master/1023-time-based-key-value-store) |
 | [1405-longest-happy-string](https://github.com/qxl0/Leetcode-p2/tree/master/1405-longest-happy-string) |
 | [1756-minimum-deletions-to-make-string-balanced](https://github.com/qxl0/Leetcode-p2/tree/master/1756-minimum-deletions-to-make-string-balanced) |
+| [1960-maximum-product-of-the-length-of-two-palindromic-substrings](https://github.com/qxl0/Leetcode-p2/tree/master/1960-maximum-product-of-the-length-of-two-palindromic-substrings) |
 | [3479-count-the-number-of-substrings-with-dominant-ones](https://github.com/qxl0/Leetcode-p2/tree/master/3479-count-the-number-of-substrings-with-dominant-ones) |
 | [3546-count-substrings-that-satisfy-k-constraint-ii](https://github.com/qxl0/Leetcode-p2/tree/master/3546-count-substrings-that-satisfy-k-constraint-ii) |
 | [3684-substring-matching-pattern](https://github.com/qxl0/Leetcode-p2/tree/master/3684-substring-matching-pattern) |
@@ -511,6 +512,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0572-subtree-of-another-tree](https://github.com/qxl0/Leetcode-p2/tree/master/0572-subtree-of-another-tree) |
+| [1960-maximum-product-of-the-length-of-two-palindromic-substrings](https://github.com/qxl0/Leetcode-p2/tree/master/1960-maximum-product-of-the-length-of-two-palindromic-substrings) |
 ## Binary Search Tree
 |  |
 | ------- |
@@ -525,4 +527,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1863-sum-of-all-subset-xor-totals](https://github.com/qxl0/Leetcode-p2/tree/master/1863-sum-of-all-subset-xor-totals) |
+## Rolling Hash
+|  |
+| ------- |
+| [1960-maximum-product-of-the-length-of-two-palindromic-substrings](https://github.com/qxl0/Leetcode-p2/tree/master/1960-maximum-product-of-the-length-of-two-palindromic-substrings) |
 <!---LeetCode Topics End-->
