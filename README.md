@@ -6,6 +6,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0019-remove-nth-node-from-end-of-list](https://github.com/qxl0/Leetcode-p2/tree/master/0019-remove-nth-node-from-end-of-list) |
 | [0141-linked-list-cycle](https://github.com/qxl0/Leetcode-p2/tree/master/0141-linked-list-cycle) |
+| [0146-lru-cache](https://github.com/qxl0/Leetcode-p2/tree/master/0146-lru-cache) |
 | [0206-reverse-linked-list](https://github.com/qxl0/Leetcode-p2/tree/master/0206-reverse-linked-list) |
 | [2182-find-the-minimum-and-maximum-number-of-nodes-between-critical-points](https://github.com/qxl0/Leetcode-p2/tree/master/2182-find-the-minimum-and-maximum-number-of-nodes-between-critical-points) |
 ## Array
@@ -209,6 +210,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/qxl0/Leetcode-p2/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0128-longest-consecutive-sequence](https://github.com/qxl0/Leetcode-p2/tree/master/0128-longest-consecutive-sequence) |
 | [0141-linked-list-cycle](https://github.com/qxl0/Leetcode-p2/tree/master/0141-linked-list-cycle) |
+| [0146-lru-cache](https://github.com/qxl0/Leetcode-p2/tree/master/0146-lru-cache) |
 | [0169-majority-element](https://github.com/qxl0/Leetcode-p2/tree/master/0169-majority-element) |
 | [0229-majority-element-ii](https://github.com/qxl0/Leetcode-p2/tree/master/0229-majority-element-ii) |
 | [0424-longest-repeating-character-replacement](https://github.com/qxl0/Leetcode-p2/tree/master/0424-longest-repeating-character-replacement) |
@@ -323,6 +325,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Design
 |  |
 | ------- |
+| [0146-lru-cache](https://github.com/qxl0/Leetcode-p2/tree/master/0146-lru-cache) |
 | [0232-implement-queue-using-stacks](https://github.com/qxl0/Leetcode-p2/tree/master/0232-implement-queue-using-stacks) |
 | [0295-find-median-from-data-stream](https://github.com/qxl0/Leetcode-p2/tree/master/0295-find-median-from-data-stream) |
 | [0937-online-stock-span](https://github.com/qxl0/Leetcode-p2/tree/master/0937-online-stock-span) |
@@ -531,4 +534,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1960-maximum-product-of-the-length-of-two-palindromic-substrings](https://github.com/qxl0/Leetcode-p2/tree/master/1960-maximum-product-of-the-length-of-two-palindromic-substrings) |
+## Doubly-Linked List
+|  |
+| ------- |
+| [0146-lru-cache](https://github.com/qxl0/Leetcode-p2/tree/master/0146-lru-cache) |
 <!---LeetCode Topics End-->
