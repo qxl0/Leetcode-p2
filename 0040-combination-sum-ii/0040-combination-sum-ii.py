@@ -3,20 +3,20 @@ class Solution:
         n = len(candidates)
         ret = []
         candidates.sort()
-        def dfs(i,path,sm):            
+        def dfs(i, path, sm):
             if sm == target:
                 ret.append(path.copy())
                 return
-            if i>=n:
+            if i >= n or sm > target:
                 return
-            pre = -1
-            for j in range(i,n,1):
-                if sm+candidates[j]>target:
+            
+            for j in range(i, n):
+                # Skip duplicates at same recursion level
+                if j > i and candidates[j] == candidates[j-1]:
                     continue
-                if pre == candidates[j]:
-                    continue                
-                pre = candidates[j]                
-                dfs(j+1, path+[candidates[j]], candidates[j]+sm)
-                
+                if sm + candidates[j] > target:
+                    break
+                dfs(j+1, path+[candidates[j]], sm+candidates[j])
+                        
         dfs(0,[], 0)
         return ret
