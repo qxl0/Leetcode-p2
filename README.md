@@ -24,6 +24,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0047-permutations-ii](https://github.com/qxl0/Leetcode-p2/tree/master/0047-permutations-ii) |
 | [0074-search-a-2d-matrix](https://github.com/qxl0/Leetcode-p2/tree/master/0074-search-a-2d-matrix) |
 | [0075-sort-colors](https://github.com/qxl0/Leetcode-p2/tree/master/0075-sort-colors) |
+| [0079-word-search](https://github.com/qxl0/Leetcode-p2/tree/master/0079-word-search) |
 | [0081-search-in-rotated-sorted-array-ii](https://github.com/qxl0/Leetcode-p2/tree/master/0081-search-in-rotated-sorted-array-ii) |
 | [0085-maximal-rectangle](https://github.com/qxl0/Leetcode-p2/tree/master/0085-maximal-rectangle) |
 | [0088-merge-sorted-array](https://github.com/qxl0/Leetcode-p2/tree/master/0088-merge-sorted-array) |
@@ -167,6 +168,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Depth-First Search
 |  |
 | ------- |
+| [0079-word-search](https://github.com/qxl0/Leetcode-p2/tree/master/0079-word-search) |
 | [0104-maximum-depth-of-binary-tree](https://github.com/qxl0/Leetcode-p2/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0110-balanced-binary-tree](https://github.com/qxl0/Leetcode-p2/tree/master/0110-balanced-binary-tree) |
 | [0124-binary-tree-maximum-path-sum](https://github.com/qxl0/Leetcode-p2/tree/master/0124-binary-tree-maximum-path-sum) |
@@ -202,6 +204,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0036-valid-sudoku](https://github.com/qxl0/Leetcode-p2/tree/master/0036-valid-sudoku) |
 | [0074-search-a-2d-matrix](https://github.com/qxl0/Leetcode-p2/tree/master/0074-search-a-2d-matrix) |
+| [0079-word-search](https://github.com/qxl0/Leetcode-p2/tree/master/0079-word-search) |
 | [0085-maximal-rectangle](https://github.com/qxl0/Leetcode-p2/tree/master/0085-maximal-rectangle) |
 | [0741-cherry-pickup](https://github.com/qxl0/Leetcode-p2/tree/master/0741-cherry-pickup) |
 | [0772-construct-quad-tree](https://github.com/qxl0/Leetcode-p2/tree/master/0772-construct-quad-tree) |
@@ -268,6 +271,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/qxl0/Leetcode-p2/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
 | [0071-simplify-path](https://github.com/qxl0/Leetcode-p2/tree/master/0071-simplify-path) |
 | [0076-minimum-window-substring](https://github.com/qxl0/Leetcode-p2/tree/master/0076-minimum-window-substring) |
+| [0079-word-search](https://github.com/qxl0/Leetcode-p2/tree/master/0079-word-search) |
 | [0125-valid-palindrome](https://github.com/qxl0/Leetcode-p2/tree/master/0125-valid-palindrome) |
 | [0316-remove-duplicate-letters](https://github.com/qxl0/Leetcode-p2/tree/master/0316-remove-duplicate-letters) |
 | [0344-reverse-string](https://github.com/qxl0/Leetcode-p2/tree/master/0344-reverse-string) |
@@ -465,6 +469,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0040-combination-sum-ii](https://github.com/qxl0/Leetcode-p2/tree/master/0040-combination-sum-ii) |
 | [0046-permutations](https://github.com/qxl0/Leetcode-p2/tree/master/0046-permutations) |
 | [0047-permutations-ii](https://github.com/qxl0/Leetcode-p2/tree/master/0047-permutations-ii) |
+| [0079-word-search](https://github.com/qxl0/Leetcode-p2/tree/master/0079-word-search) |
 | [0090-subsets-ii](https://github.com/qxl0/Leetcode-p2/tree/master/0090-subsets-ii) |
 | [0465-optimal-account-balancing](https://github.com/qxl0/Leetcode-p2/tree/master/0465-optimal-account-balancing) |
 | [1863-sum-of-all-subset-xor-totals](https://github.com/qxl0/Leetcode-p2/tree/master/1863-sum-of-all-subset-xor-totals) |
