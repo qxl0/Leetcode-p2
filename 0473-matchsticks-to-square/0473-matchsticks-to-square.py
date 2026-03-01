@@ -19,6 +19,6 @@ class Solution:
                 vis[i] = 0
             return False
 
-        nums.sort()
+        nums.sort(reverse=True)
         vis = [0]*n
         return dfs(0, 0, 0, vis)
