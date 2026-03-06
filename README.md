@@ -2,17 +2,17 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 <!---LeetCode Topics Start-->
 # LeetCode Topics
 ## Linked List
-| Problem Name | Difficulty |
-| ------- | ------- |
+|  |
+| ------- |
 | [0019-remove-nth-node-from-end-of-list](https://github.com/qxl0/Leetcode-p2/tree/master/0019-remove-nth-node-from-end-of-list) |
-| [0138-copy-list-with-random-pointer](https://github.com/qxl0/Leetcode-p2/tree/main/0138-copy-list-with-random-pointer/) | Medium |
+| [0138-copy-list-with-random-pointer](https://github.com/qxl0/Leetcode-p2/tree/master/0138-copy-list-with-random-pointer) |
 | [0141-linked-list-cycle](https://github.com/qxl0/Leetcode-p2/tree/master/0141-linked-list-cycle) |
 | [0146-lru-cache](https://github.com/qxl0/Leetcode-p2/tree/master/0146-lru-cache) |
 | [0206-reverse-linked-list](https://github.com/qxl0/Leetcode-p2/tree/master/0206-reverse-linked-list) |
 | [2182-find-the-minimum-and-maximum-number-of-nodes-between-critical-points](https://github.com/qxl0/Leetcode-p2/tree/master/2182-find-the-minimum-and-maximum-number-of-nodes-between-critical-points) |
 ## Array
-| Problem Name | Difficulty |
-| ------- | ------- |
+|  |
+| ------- |
 | [0004-median-of-two-sorted-arrays](https://github.com/qxl0/Leetcode-p2/tree/master/0004-median-of-two-sorted-arrays) |
 | [0015-3sum](https://github.com/qxl0/Leetcode-p2/tree/master/0015-3sum) |
 | [0018-4sum](https://github.com/qxl0/Leetcode-p2/tree/master/0018-4sum) |
@@ -89,8 +89,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3973-flip-square-submatrix-vertically](https://github.com/qxl0/Leetcode-p2/tree/master/3973-flip-square-submatrix-vertically) |
 | [4007-maximum-total-subarray-value-ii](https://github.com/qxl0/Leetcode-p2/tree/master/4007-maximum-total-subarray-value-ii) |
 ## Dynamic Programming
-| Problem Name | Difficulty |
-| ------- | ------- |
+|  |
+| ------- |
 | [0010-regular-expression-matching](https://github.com/qxl0/Leetcode-p2/tree/master/0010-regular-expression-matching) |
 | [0022-generate-parentheses](https://github.com/qxl0/Leetcode-p2/tree/master/0022-generate-parentheses) |
 | [0085-maximal-rectangle](https://github.com/qxl0/Leetcode-p2/tree/master/0085-maximal-rectangle) |
@@ -119,8 +119,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3795-zero-array-transformation-iv](https://github.com/qxl0/Leetcode-p2/tree/master/3795-zero-array-transformation-iv) |
 | [3930-longest-palindromic-path-in-graph](https://github.com/qxl0/Leetcode-p2/tree/master/3930-longest-palindromic-path-in-graph) |
 ## Greedy
-| Problem Name | Difficulty |
-| ------- | ------- |
+|  |
+| ------- |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/qxl0/Leetcode-p2/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
 | [0316-remove-duplicate-letters](https://github.com/qxl0/Leetcode-p2/tree/master/0316-remove-duplicate-letters) |
 | [0410-split-array-largest-sum](https://github.com/qxl0/Leetcode-p2/tree/master/0410-split-array-largest-sum) |
@@ -133,8 +133,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3528-reach-end-of-array-with-max-score](https://github.com/qxl0/Leetcode-p2/tree/master/3528-reach-end-of-array-with-max-score) |
 | [4007-maximum-total-subarray-value-ii](https://github.com/qxl0/Leetcode-p2/tree/master/4007-maximum-total-subarray-value-ii) |
 ## Sorting
-| Problem Name | Difficulty |
-| ------- | ------- |
+|  |
+| ------- |
 | [0015-3sum](https://github.com/qxl0/Leetcode-p2/tree/master/0015-3sum) |
 | [0018-4sum](https://github.com/qxl0/Leetcode-p2/tree/master/0018-4sum) |
 | [0047-permutations-ii](https://github.com/qxl0/Leetcode-p2/tree/master/0047-permutations-ii) |
@@ -153,8 +153,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3500-minimum-cost-for-cutting-cake-ii](https://github.com/qxl0/Leetcode-p2/tree/master/3500-minimum-cost-for-cutting-cake-ii) |
 | [3534-count-almost-equal-pairs-i](https://github.com/qxl0/Leetcode-p2/tree/master/3534-count-almost-equal-pairs-i) |
 ## Tree
-| Problem Name | Difficulty |
-| ------- | ------- |
+|  |
+| ------- |
 | [0102-binary-tree-level-order-traversal](https://github.com/qxl0/Leetcode-p2/tree/master/0102-binary-tree-level-order-traversal) |
 | [0104-maximum-depth-of-binary-tree](https://github.com/qxl0/Leetcode-p2/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/qxl0/Leetcode-p2/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
@@ -171,8 +171,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1325-delete-leaves-with-a-given-value](https://github.com/qxl0/Leetcode-p2/tree/master/1325-delete-leaves-with-a-given-value) |
 | [1653-number-of-good-leaf-nodes-pairs](https://github.com/qxl0/Leetcode-p2/tree/master/1653-number-of-good-leaf-nodes-pairs) |
 ## Depth-First Search
-| Problem Name | Difficulty |
-| ------- | ------- |
+|  |
+| ------- |
 | [0079-word-search](https://github.com/qxl0/Leetcode-p2/tree/master/0079-word-search) |
 | [0104-maximum-depth-of-binary-tree](https://github.com/qxl0/Leetcode-p2/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0110-balanced-binary-tree](https://github.com/qxl0/Leetcode-p2/tree/master/0110-balanced-binary-tree) |
@@ -189,8 +189,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1325-delete-leaves-with-a-given-value](https://github.com/qxl0/Leetcode-p2/tree/master/1325-delete-leaves-with-a-given-value) |
 | [1653-number-of-good-leaf-nodes-pairs](https://github.com/qxl0/Leetcode-p2/tree/master/1653-number-of-good-leaf-nodes-pairs) |
 ## Binary Tree
-| Problem Name | Difficulty |
-| ------- | ------- |
+|  |
+| ------- |
 | [0102-binary-tree-level-order-traversal](https://github.com/qxl0/Leetcode-p2/tree/master/0102-binary-tree-level-order-traversal) |
 | [0104-maximum-depth-of-binary-tree](https://github.com/qxl0/Leetcode-p2/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/qxl0/Leetcode-p2/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
@@ -206,8 +206,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1325-delete-leaves-with-a-given-value](https://github.com/qxl0/Leetcode-p2/tree/master/1325-delete-leaves-with-a-given-value) |
 | [1653-number-of-good-leaf-nodes-pairs](https://github.com/qxl0/Leetcode-p2/tree/master/1653-number-of-good-leaf-nodes-pairs) |
 ## Matrix
-| Problem Name | Difficulty |
-| ------- | ------- |
+|  |
+| ------- |
 | [0036-valid-sudoku](https://github.com/qxl0/Leetcode-p2/tree/master/0036-valid-sudoku) |
 | [0074-search-a-2d-matrix](https://github.com/qxl0/Leetcode-p2/tree/master/0074-search-a-2d-matrix) |
 | [0079-word-search](https://github.com/qxl0/Leetcode-p2/tree/master/0079-word-search) |
@@ -219,14 +219,14 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3516-design-neighbor-sum-service](https://github.com/qxl0/Leetcode-p2/tree/master/3516-design-neighbor-sum-service) |
 | [3973-flip-square-submatrix-vertically](https://github.com/qxl0/Leetcode-p2/tree/master/3973-flip-square-submatrix-vertically) |
 ## Hash Table
-| Problem Name | Difficulty |
-| ------- | ------- |
+|  |
+| ------- |
 | [0036-valid-sudoku](https://github.com/qxl0/Leetcode-p2/tree/master/0036-valid-sudoku) |
 | [0041-first-missing-positive](https://github.com/qxl0/Leetcode-p2/tree/master/0041-first-missing-positive) |
 | [0076-minimum-window-substring](https://github.com/qxl0/Leetcode-p2/tree/master/0076-minimum-window-substring) |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/qxl0/Leetcode-p2/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0128-longest-consecutive-sequence](https://github.com/qxl0/Leetcode-p2/tree/master/0128-longest-consecutive-sequence) |
-| [0138-copy-list-with-random-pointer](https://github.com/qxl0/Leetcode-p2/tree/main/0138-copy-list-with-random-pointer/) | Medium |
+| [0138-copy-list-with-random-pointer](https://github.com/qxl0/Leetcode-p2/tree/master/0138-copy-list-with-random-pointer) |
 | [0140-word-break-ii](https://github.com/qxl0/Leetcode-p2/tree/master/0140-word-break-ii) |
 | [0141-linked-list-cycle](https://github.com/qxl0/Leetcode-p2/tree/master/0141-linked-list-cycle) |
 | [0146-lru-cache](https://github.com/qxl0/Leetcode-p2/tree/master/0146-lru-cache) |
@@ -243,16 +243,16 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3534-count-almost-equal-pairs-i](https://github.com/qxl0/Leetcode-p2/tree/master/3534-count-almost-equal-pairs-i) |
 | [3610-find-x-sum-of-all-k-long-subarrays-i](https://github.com/qxl0/Leetcode-p2/tree/master/3610-find-x-sum-of-all-k-long-subarrays-i) |
 ## Prefix Sum
-| Problem Name | Difficulty |
-| ------- | ------- |
+|  |
+| ------- |
 | [0410-split-array-largest-sum](https://github.com/qxl0/Leetcode-p2/tree/master/0410-split-array-largest-sum) |
 | [0560-subarray-sum-equals-k](https://github.com/qxl0/Leetcode-p2/tree/master/0560-subarray-sum-equals-k) |
 | [3498-minimum-array-changes-to-make-differences-equal](https://github.com/qxl0/Leetcode-p2/tree/master/3498-minimum-array-changes-to-make-differences-equal) |
 | [3546-count-substrings-that-satisfy-k-constraint-ii](https://github.com/qxl0/Leetcode-p2/tree/master/3546-count-substrings-that-satisfy-k-constraint-ii) |
 | [3794-find-the-minimum-amount-of-time-to-brew-potions](https://github.com/qxl0/Leetcode-p2/tree/master/3794-find-the-minimum-amount-of-time-to-brew-potions) |
 ## Two Pointers
-| Problem Name | Difficulty |
-| ------- | ------- |
+|  |
+| ------- |
 | [0015-3sum](https://github.com/qxl0/Leetcode-p2/tree/master/0015-3sum) |
 | [0018-4sum](https://github.com/qxl0/Leetcode-p2/tree/master/0018-4sum) |
 | [0019-remove-nth-node-from-end-of-list](https://github.com/qxl0/Leetcode-p2/tree/master/0019-remove-nth-node-from-end-of-list) |
@@ -272,8 +272,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2035-partition-array-into-two-arrays-to-minimize-sum-difference](https://github.com/qxl0/Leetcode-p2/tree/master/2035-partition-array-into-two-arrays-to-minimize-sum-difference) |
 | [3973-flip-square-submatrix-vertically](https://github.com/qxl0/Leetcode-p2/tree/master/3973-flip-square-submatrix-vertically) |
 ## String
-| Problem Name | Difficulty |
-| ------- | ------- |
+|  |
+| ------- |
 | [0010-regular-expression-matching](https://github.com/qxl0/Leetcode-p2/tree/master/0010-regular-expression-matching) |
 | [0020-valid-parentheses](https://github.com/qxl0/Leetcode-p2/tree/master/0020-valid-parentheses) |
 | [0022-generate-parentheses](https://github.com/qxl0/Leetcode-p2/tree/master/0022-generate-parentheses) |
@@ -303,19 +303,19 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3930-longest-palindromic-path-in-graph](https://github.com/qxl0/Leetcode-p2/tree/master/3930-longest-palindromic-path-in-graph) |
 | [3939-process-string-with-special-operations-ii](https://github.com/qxl0/Leetcode-p2/tree/master/3939-process-string-with-special-operations-ii) |
 ## String Matching
-| Problem Name | Difficulty |
-| ------- | ------- |
+|  |
+| ------- |
 | [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/qxl0/Leetcode-p2/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
 | [0572-subtree-of-another-tree](https://github.com/qxl0/Leetcode-p2/tree/master/0572-subtree-of-another-tree) |
 | [3684-substring-matching-pattern](https://github.com/qxl0/Leetcode-p2/tree/master/3684-substring-matching-pattern) |
 ## Binary Indexed Tree
-| Problem Name | Difficulty |
-| ------- | ------- |
+|  |
+| ------- |
 | [0673-number-of-longest-increasing-subsequence](https://github.com/qxl0/Leetcode-p2/tree/master/0673-number-of-longest-increasing-subsequence) |
 | [1511-count-number-of-teams](https://github.com/qxl0/Leetcode-p2/tree/master/1511-count-number-of-teams) |
 ## Stack
-| Problem Name | Difficulty |
-| ------- | ------- |
+|  |
+| ------- |
 | [0020-valid-parentheses](https://github.com/qxl0/Leetcode-p2/tree/master/0020-valid-parentheses) |
 | [0071-simplify-path](https://github.com/qxl0/Leetcode-p2/tree/master/0071-simplify-path) |
 | [0085-maximal-rectangle](https://github.com/qxl0/Leetcode-p2/tree/master/0085-maximal-rectangle) |
@@ -329,8 +329,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0937-online-stock-span](https://github.com/qxl0/Leetcode-p2/tree/master/0937-online-stock-span) |
 | [1756-minimum-deletions-to-make-string-balanced](https://github.com/qxl0/Leetcode-p2/tree/master/1756-minimum-deletions-to-make-string-balanced) |
 ## Sliding Window
-| Problem Name | Difficulty |
-| ------- | ------- |
+|  |
+| ------- |
 | [0076-minimum-window-substring](https://github.com/qxl0/Leetcode-p2/tree/master/0076-minimum-window-substring) |
 | [0239-sliding-window-maximum](https://github.com/qxl0/Leetcode-p2/tree/master/0239-sliding-window-maximum) |
 | [0424-longest-repeating-character-replacement](https://github.com/qxl0/Leetcode-p2/tree/master/0424-longest-repeating-character-replacement) |
@@ -341,14 +341,14 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3546-count-substrings-that-satisfy-k-constraint-ii](https://github.com/qxl0/Leetcode-p2/tree/master/3546-count-substrings-that-satisfy-k-constraint-ii) |
 | [3610-find-x-sum-of-all-k-long-subarrays-i](https://github.com/qxl0/Leetcode-p2/tree/master/3610-find-x-sum-of-all-k-long-subarrays-i) |
 ## Enumeration
-| Problem Name | Difficulty |
-| ------- | ------- |
+|  |
+| ------- |
 | [1863-sum-of-all-subset-xor-totals](https://github.com/qxl0/Leetcode-p2/tree/master/1863-sum-of-all-subset-xor-totals) |
 | [3479-count-the-number-of-substrings-with-dominant-ones](https://github.com/qxl0/Leetcode-p2/tree/master/3479-count-the-number-of-substrings-with-dominant-ones) |
 | [3534-count-almost-equal-pairs-i](https://github.com/qxl0/Leetcode-p2/tree/master/3534-count-almost-equal-pairs-i) |
 ## Design
-| Problem Name | Difficulty |
-| ------- | ------- |
+|  |
+| ------- |
 | [0146-lru-cache](https://github.com/qxl0/Leetcode-p2/tree/master/0146-lru-cache) |
 | [0232-implement-queue-using-stacks](https://github.com/qxl0/Leetcode-p2/tree/master/0232-implement-queue-using-stacks) |
 | [0295-find-median-from-data-stream](https://github.com/qxl0/Leetcode-p2/tree/master/0295-find-median-from-data-stream) |
@@ -356,8 +356,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1023-time-based-key-value-store](https://github.com/qxl0/Leetcode-p2/tree/master/1023-time-based-key-value-store) |
 | [3516-design-neighbor-sum-service](https://github.com/qxl0/Leetcode-p2/tree/master/3516-design-neighbor-sum-service) |
 ## Simulation
-| Problem Name | Difficulty |
-| ------- | ------- |
+|  |
+| ------- |
 | [0682-baseball-game](https://github.com/qxl0/Leetcode-p2/tree/master/0682-baseball-game) |
 | [2058-concatenation-of-array](https://github.com/qxl0/Leetcode-p2/tree/master/2058-concatenation-of-array) |
 | [3516-design-neighbor-sum-service](https://github.com/qxl0/Leetcode-p2/tree/master/3516-design-neighbor-sum-service) |
@@ -365,8 +365,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3794-find-the-minimum-amount-of-time-to-brew-potions](https://github.com/qxl0/Leetcode-p2/tree/master/3794-find-the-minimum-amount-of-time-to-brew-potions) |
 | [3939-process-string-with-special-operations-ii](https://github.com/qxl0/Leetcode-p2/tree/master/3939-process-string-with-special-operations-ii) |
 ## Binary Search
-| Problem Name | Difficulty |
-| ------- | ------- |
+|  |
+| ------- |
 | [0004-median-of-two-sorted-arrays](https://github.com/qxl0/Leetcode-p2/tree/master/0004-median-of-two-sorted-arrays) |
 | [0074-search-a-2d-matrix](https://github.com/qxl0/Leetcode-p2/tree/master/0074-search-a-2d-matrix) |
 | [0081-search-in-rotated-sorted-array-ii](https://github.com/qxl0/Leetcode-p2/tree/master/0081-search-in-rotated-sorted-array-ii) |
@@ -383,14 +383,14 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3546-count-substrings-that-satisfy-k-constraint-ii](https://github.com/qxl0/Leetcode-p2/tree/master/3546-count-substrings-that-satisfy-k-constraint-ii) |
 | [3619-adjacent-increasing-subarrays-detection-ii](https://github.com/qxl0/Leetcode-p2/tree/master/3619-adjacent-increasing-subarrays-detection-ii) |
 ## Counting
-| Problem Name | Difficulty |
-| ------- | ------- |
+|  |
+| ------- |
 | [0169-majority-element](https://github.com/qxl0/Leetcode-p2/tree/master/0169-majority-element) |
 | [0229-majority-element-ii](https://github.com/qxl0/Leetcode-p2/tree/master/0229-majority-element-ii) |
 | [3534-count-almost-equal-pairs-i](https://github.com/qxl0/Leetcode-p2/tree/master/3534-count-almost-equal-pairs-i) |
 ## Heap (Priority Queue)
-| Problem Name | Difficulty |
-| ------- | ------- |
+|  |
+| ------- |
 | [0239-sliding-window-maximum](https://github.com/qxl0/Leetcode-p2/tree/master/0239-sliding-window-maximum) |
 | [0295-find-median-from-data-stream](https://github.com/qxl0/Leetcode-p2/tree/master/0295-find-median-from-data-stream) |
 | [0502-ipo](https://github.com/qxl0/Leetcode-p2/tree/master/0502-ipo) |
@@ -403,8 +403,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3610-find-x-sum-of-all-k-long-subarrays-i](https://github.com/qxl0/Leetcode-p2/tree/master/3610-find-x-sum-of-all-k-long-subarrays-i) |
 | [4007-maximum-total-subarray-value-ii](https://github.com/qxl0/Leetcode-p2/tree/master/4007-maximum-total-subarray-value-ii) |
 ## Math
-| Problem Name | Difficulty |
-| ------- | ------- |
+|  |
+| ------- |
 | [0150-evaluate-reverse-polish-notation](https://github.com/qxl0/Leetcode-p2/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0189-rotate-array](https://github.com/qxl0/Leetcode-p2/tree/master/0189-rotate-array) |
 | [0464-can-i-win](https://github.com/qxl0/Leetcode-p2/tree/master/0464-can-i-win) |
@@ -414,8 +414,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3601-find-the-k-th-character-in-string-game-ii](https://github.com/qxl0/Leetcode-p2/tree/master/3601-find-the-k-th-character-in-string-game-ii) |
 | [3676-smallest-number-with-all-set-bits](https://github.com/qxl0/Leetcode-p2/tree/master/3676-smallest-number-with-all-set-bits) |
 ## Bit Manipulation
-| Problem Name | Difficulty |
-| ------- | ------- |
+|  |
+| ------- |
 | [0090-subsets-ii](https://github.com/qxl0/Leetcode-p2/tree/master/0090-subsets-ii) |
 | [0464-can-i-win](https://github.com/qxl0/Leetcode-p2/tree/master/0464-can-i-win) |
 | [0465-optimal-account-balancing](https://github.com/qxl0/Leetcode-p2/tree/master/0465-optimal-account-balancing) |
@@ -427,8 +427,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3676-smallest-number-with-all-set-bits](https://github.com/qxl0/Leetcode-p2/tree/master/3676-smallest-number-with-all-set-bits) |
 | [3930-longest-palindromic-path-in-graph](https://github.com/qxl0/Leetcode-p2/tree/master/3930-longest-palindromic-path-in-graph) |
 ## Breadth-First Search
-| Problem Name | Difficulty |
-| ------- | ------- |
+|  |
+| ------- |
 | [0102-binary-tree-level-order-traversal](https://github.com/qxl0/Leetcode-p2/tree/master/0102-binary-tree-level-order-traversal) |
 | [0104-maximum-depth-of-binary-tree](https://github.com/qxl0/Leetcode-p2/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0199-binary-tree-right-side-view](https://github.com/qxl0/Leetcode-p2/tree/master/0199-binary-tree-right-side-view) |
@@ -438,45 +438,45 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0803-cheapest-flights-within-k-stops](https://github.com/qxl0/Leetcode-p2/tree/master/0803-cheapest-flights-within-k-stops) |
 | [3560-maximum-number-of-moves-to-kill-all-pawns](https://github.com/qxl0/Leetcode-p2/tree/master/3560-maximum-number-of-moves-to-kill-all-pawns) |
 ## Game Theory
-| Problem Name | Difficulty |
-| ------- | ------- |
+|  |
+| ------- |
 | [0464-can-i-win](https://github.com/qxl0/Leetcode-p2/tree/master/0464-can-i-win) |
 | [3560-maximum-number-of-moves-to-kill-all-pawns](https://github.com/qxl0/Leetcode-p2/tree/master/3560-maximum-number-of-moves-to-kill-all-pawns) |
 ## Bitmask
-| Problem Name | Difficulty |
-| ------- | ------- |
+|  |
+| ------- |
 | [0464-can-i-win](https://github.com/qxl0/Leetcode-p2/tree/master/0464-can-i-win) |
 | [0465-optimal-account-balancing](https://github.com/qxl0/Leetcode-p2/tree/master/0465-optimal-account-balancing) |
 | [2035-partition-array-into-two-arrays-to-minimize-sum-difference](https://github.com/qxl0/Leetcode-p2/tree/master/2035-partition-array-into-two-arrays-to-minimize-sum-difference) |
 | [3560-maximum-number-of-moves-to-kill-all-pawns](https://github.com/qxl0/Leetcode-p2/tree/master/3560-maximum-number-of-moves-to-kill-all-pawns) |
 ## Database
-| Problem Name | Difficulty |
-| ------- | ------- |
+|  |
+| ------- |
 | [3609-calculate-product-final-price](https://github.com/qxl0/Leetcode-p2/tree/master/3609-calculate-product-final-price) |
 ## Queue
-| Problem Name | Difficulty |
-| ------- | ------- |
+|  |
+| ------- |
 | [0232-implement-queue-using-stacks](https://github.com/qxl0/Leetcode-p2/tree/master/0232-implement-queue-using-stacks) |
 | [0239-sliding-window-maximum](https://github.com/qxl0/Leetcode-p2/tree/master/0239-sliding-window-maximum) |
 ## Monotonic Queue
-| Problem Name | Difficulty |
-| ------- | ------- |
+|  |
+| ------- |
 | [0239-sliding-window-maximum](https://github.com/qxl0/Leetcode-p2/tree/master/0239-sliding-window-maximum) |
 ## Recursion
-| Problem Name | Difficulty |
-| ------- | ------- |
+|  |
+| ------- |
 | [0010-regular-expression-matching](https://github.com/qxl0/Leetcode-p2/tree/master/0010-regular-expression-matching) |
 | [0206-reverse-linked-list](https://github.com/qxl0/Leetcode-p2/tree/master/0206-reverse-linked-list) |
 | [0394-decode-string](https://github.com/qxl0/Leetcode-p2/tree/master/0394-decode-string) |
 | [3601-find-the-k-th-character-in-string-game-ii](https://github.com/qxl0/Leetcode-p2/tree/master/3601-find-the-k-th-character-in-string-game-ii) |
 ## Memoization
-| Problem Name | Difficulty |
-| ------- | ------- |
+|  |
+| ------- |
 | [0140-word-break-ii](https://github.com/qxl0/Leetcode-p2/tree/master/0140-word-break-ii) |
 | [0464-can-i-win](https://github.com/qxl0/Leetcode-p2/tree/master/0464-can-i-win) |
 ## Backtracking
-| Problem Name | Difficulty |
-| ------- | ------- |
+|  |
+| ------- |
 | [0022-generate-parentheses](https://github.com/qxl0/Leetcode-p2/tree/master/0022-generate-parentheses) |
 | [0039-combination-sum](https://github.com/qxl0/Leetcode-p2/tree/master/0039-combination-sum) |
 | [0040-combination-sum-ii](https://github.com/qxl0/Leetcode-p2/tree/master/0040-combination-sum-ii) |
@@ -490,93 +490,93 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0465-optimal-account-balancing](https://github.com/qxl0/Leetcode-p2/tree/master/0465-optimal-account-balancing) |
 | [1863-sum-of-all-subset-xor-totals](https://github.com/qxl0/Leetcode-p2/tree/master/1863-sum-of-all-subset-xor-totals) |
 ## Segment Tree
-| Problem Name | Difficulty |
-| ------- | ------- |
+|  |
+| ------- |
 | [0673-number-of-longest-increasing-subsequence](https://github.com/qxl0/Leetcode-p2/tree/master/0673-number-of-longest-increasing-subsequence) |
 | [3941-number-of-integers-with-popcount-depth-equal-to-k-ii](https://github.com/qxl0/Leetcode-p2/tree/master/3941-number-of-integers-with-popcount-depth-equal-to-k-ii) |
 | [4007-maximum-total-subarray-value-ii](https://github.com/qxl0/Leetcode-p2/tree/master/4007-maximum-total-subarray-value-ii) |
 ## Graph
-| Problem Name | Difficulty |
-| ------- | ------- |
+|  |
+| ------- |
 | [0803-cheapest-flights-within-k-stops](https://github.com/qxl0/Leetcode-p2/tree/master/0803-cheapest-flights-within-k-stops) |
 | [3930-longest-palindromic-path-in-graph](https://github.com/qxl0/Leetcode-p2/tree/master/3930-longest-palindromic-path-in-graph) |
 ## Shortest Path
-| Problem Name | Difficulty |
-| ------- | ------- |
+|  |
+| ------- |
 | [0803-cheapest-flights-within-k-stops](https://github.com/qxl0/Leetcode-p2/tree/master/0803-cheapest-flights-within-k-stops) |
 ## Divide and Conquer
-| Problem Name | Difficulty |
-| ------- | ------- |
+|  |
+| ------- |
 | [0004-median-of-two-sorted-arrays](https://github.com/qxl0/Leetcode-p2/tree/master/0004-median-of-two-sorted-arrays) |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/qxl0/Leetcode-p2/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0169-majority-element](https://github.com/qxl0/Leetcode-p2/tree/master/0169-majority-element) |
 | [0772-construct-quad-tree](https://github.com/qxl0/Leetcode-p2/tree/master/0772-construct-quad-tree) |
 | [0948-sort-an-array](https://github.com/qxl0/Leetcode-p2/tree/master/0948-sort-an-array) |
 ## Merge Sort
-| Problem Name | Difficulty |
-| ------- | ------- |
+|  |
+| ------- |
 | [0948-sort-an-array](https://github.com/qxl0/Leetcode-p2/tree/master/0948-sort-an-array) |
 ## Bucket Sort
-| Problem Name | Difficulty |
-| ------- | ------- |
+|  |
+| ------- |
 | [0948-sort-an-array](https://github.com/qxl0/Leetcode-p2/tree/master/0948-sort-an-array) |
 ## Radix Sort
-| Problem Name | Difficulty |
-| ------- | ------- |
+|  |
+| ------- |
 | [0948-sort-an-array](https://github.com/qxl0/Leetcode-p2/tree/master/0948-sort-an-array) |
 ## Counting Sort
-| Problem Name | Difficulty |
-| ------- | ------- |
+|  |
+| ------- |
 | [0948-sort-an-array](https://github.com/qxl0/Leetcode-p2/tree/master/0948-sort-an-array) |
 ## Union Find
-| Problem Name | Difficulty |
-| ------- | ------- |
+|  |
+| ------- |
 | [0128-longest-consecutive-sequence](https://github.com/qxl0/Leetcode-p2/tree/master/0128-longest-consecutive-sequence) |
 ## Monotonic Stack
-| Problem Name | Difficulty |
-| ------- | ------- |
+|  |
+| ------- |
 | [0085-maximal-rectangle](https://github.com/qxl0/Leetcode-p2/tree/master/0085-maximal-rectangle) |
 | [0316-remove-duplicate-letters](https://github.com/qxl0/Leetcode-p2/tree/master/0316-remove-duplicate-letters) |
 | [0739-daily-temperatures](https://github.com/qxl0/Leetcode-p2/tree/master/0739-daily-temperatures) |
 | [0937-online-stock-span](https://github.com/qxl0/Leetcode-p2/tree/master/0937-online-stock-span) |
 ## Data Stream
-| Problem Name | Difficulty |
-| ------- | ------- |
+|  |
+| ------- |
 | [0295-find-median-from-data-stream](https://github.com/qxl0/Leetcode-p2/tree/master/0295-find-median-from-data-stream) |
 | [0937-online-stock-span](https://github.com/qxl0/Leetcode-p2/tree/master/0937-online-stock-span) |
 ## Interactive
-| Problem Name | Difficulty |
-| ------- | ------- |
+|  |
+| ------- |
 | [1185-find-in-mountain-array](https://github.com/qxl0/Leetcode-p2/tree/master/1185-find-in-mountain-array) |
 ## Hash Function
-| Problem Name | Difficulty |
-| ------- | ------- |
+|  |
+| ------- |
 | [0572-subtree-of-another-tree](https://github.com/qxl0/Leetcode-p2/tree/master/0572-subtree-of-another-tree) |
 | [1960-maximum-product-of-the-length-of-two-palindromic-substrings](https://github.com/qxl0/Leetcode-p2/tree/master/1960-maximum-product-of-the-length-of-two-palindromic-substrings) |
 ## Binary Search Tree
-| Problem Name | Difficulty |
-| ------- | ------- |
+|  |
+| ------- |
 | [0230-kth-smallest-element-in-a-bst](https://github.com/qxl0/Leetcode-p2/tree/master/0230-kth-smallest-element-in-a-bst) |
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/qxl0/Leetcode-p2/tree/master/0235-lowest-common-ancestor-of-a-binary-search-tree) |
 | [0450-delete-node-in-a-bst](https://github.com/qxl0/Leetcode-p2/tree/master/0450-delete-node-in-a-bst) |
 ## Ordered Set
-| Problem Name | Difficulty |
-| ------- | ------- |
+|  |
+| ------- |
 | [2035-partition-array-into-two-arrays-to-minimize-sum-difference](https://github.com/qxl0/Leetcode-p2/tree/master/2035-partition-array-into-two-arrays-to-minimize-sum-difference) |
 ## Combinatorics
-| Problem Name | Difficulty |
-| ------- | ------- |
+|  |
+| ------- |
 | [1863-sum-of-all-subset-xor-totals](https://github.com/qxl0/Leetcode-p2/tree/master/1863-sum-of-all-subset-xor-totals) |
 ## Rolling Hash
-| Problem Name | Difficulty |
-| ------- | ------- |
+|  |
+| ------- |
 | [1960-maximum-product-of-the-length-of-two-palindromic-substrings](https://github.com/qxl0/Leetcode-p2/tree/master/1960-maximum-product-of-the-length-of-two-palindromic-substrings) |
 ## Doubly-Linked List
-| Problem Name | Difficulty |
-| ------- | ------- |
+|  |
+| ------- |
 | [0146-lru-cache](https://github.com/qxl0/Leetcode-p2/tree/master/0146-lru-cache) |
 ## Trie
-| Problem Name | Difficulty |
-| ------- | ------- |
+|  |
+| ------- |
 | [0140-word-break-ii](https://github.com/qxl0/Leetcode-p2/tree/master/0140-word-break-ii) |
 <!---LeetCode Topics End-->
