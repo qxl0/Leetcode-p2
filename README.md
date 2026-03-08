@@ -9,6 +9,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0141-linked-list-cycle](https://github.com/qxl0/Leetcode-p2/tree/master/0141-linked-list-cycle) |
 | [0146-lru-cache](https://github.com/qxl0/Leetcode-p2/tree/master/0146-lru-cache) |
 | [0206-reverse-linked-list](https://github.com/qxl0/Leetcode-p2/tree/master/0206-reverse-linked-list) |
+| [0460-lfu-cache](https://github.com/qxl0/Leetcode-p2/tree/main/0460-lfu-cache/) | Hard |
 | [2182-find-the-minimum-and-maximum-number-of-nodes-between-critical-points](https://github.com/qxl0/Leetcode-p2/tree/master/2182-find-the-minimum-and-maximum-number-of-nodes-between-critical-points) |
 ## Array
 | Problem Name | Difficulty |
@@ -233,6 +234,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0169-majority-element](https://github.com/qxl0/Leetcode-p2/tree/master/0169-majority-element) |
 | [0229-majority-element-ii](https://github.com/qxl0/Leetcode-p2/tree/master/0229-majority-element-ii) |
 | [0424-longest-repeating-character-replacement](https://github.com/qxl0/Leetcode-p2/tree/master/0424-longest-repeating-character-replacement) |
+| [0460-lfu-cache](https://github.com/qxl0/Leetcode-p2/tree/main/0460-lfu-cache/) | Hard |
 | [0560-subarray-sum-equals-k](https://github.com/qxl0/Leetcode-p2/tree/master/0560-subarray-sum-equals-k) |
 | [0567-permutation-in-string](https://github.com/qxl0/Leetcode-p2/tree/master/0567-permutation-in-string) |
 | [0726-number-of-atoms](https://github.com/qxl0/Leetcode-p2/tree/master/0726-number-of-atoms) |
@@ -352,6 +354,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0146-lru-cache](https://github.com/qxl0/Leetcode-p2/tree/master/0146-lru-cache) |
 | [0232-implement-queue-using-stacks](https://github.com/qxl0/Leetcode-p2/tree/master/0232-implement-queue-using-stacks) |
 | [0295-find-median-from-data-stream](https://github.com/qxl0/Leetcode-p2/tree/master/0295-find-median-from-data-stream) |
+| [0460-lfu-cache](https://github.com/qxl0/Leetcode-p2/tree/main/0460-lfu-cache/) | Hard |
 | [0937-online-stock-span](https://github.com/qxl0/Leetcode-p2/tree/master/0937-online-stock-span) |
 | [1023-time-based-key-value-store](https://github.com/qxl0/Leetcode-p2/tree/master/1023-time-based-key-value-store) |
 | [3516-design-neighbor-sum-service](https://github.com/qxl0/Leetcode-p2/tree/master/3516-design-neighbor-sum-service) |
@@ -575,6 +578,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0146-lru-cache](https://github.com/qxl0/Leetcode-p2/tree/master/0146-lru-cache) |
+| [0460-lfu-cache](https://github.com/qxl0/Leetcode-p2/tree/main/0460-lfu-cache/) | Hard |
 ## Trie
 | Problem Name | Difficulty |
 | ------- | ------- |
