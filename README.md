@@ -5,6 +5,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0019-remove-nth-node-from-end-of-list](https://github.com/qxl0/Leetcode-p2/tree/master/0019-remove-nth-node-from-end-of-list) |
+| [0092-reverse-linked-list-ii](https://github.com/qxl0/Leetcode-p2/tree/main/0092-reverse-linked-list-ii/) | Medium |
 | [0138-copy-list-with-random-pointer](https://github.com/qxl0/Leetcode-p2/tree/master/0138-copy-list-with-random-pointer) |
 | [0141-linked-list-cycle](https://github.com/qxl0/Leetcode-p2/tree/master/0141-linked-list-cycle) |
 | [0146-lru-cache](https://github.com/qxl0/Leetcode-p2/tree/master/0146-lru-cache) |
