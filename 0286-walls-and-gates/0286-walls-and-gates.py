@@ -5,10 +5,10 @@ class Solution:
         """
         m, n = len(rooms),len(rooms[0])
         EMPTY = 2**31 - 1
-        gates = [(0, i,j) for i in range(m) for j in range(n) if rooms[i][j]==0]
+        gates = deque([(0, i,j) for i in range(m) for j in range(n) if rooms[i][j]==0])
         
         while gates:
-            d, x, y = gates.pop(0)
+            d, x, y = gates.popleft()
             
             rooms[x][y] = min(rooms[x][y], d)
             for dx,dy in [(-1,0),(1,0),(0,-1),(0,1)]:
