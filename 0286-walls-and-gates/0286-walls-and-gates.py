@@ -9,11 +9,10 @@ class Solution:
         
         while gates:
             d, x, y = gates.popleft()
-            
-            rooms[x][y] = min(rooms[x][y], d)
             for dx,dy in [(-1,0),(1,0),(0,-1),(0,1)]:
                 nx,ny = x+dx, y+dy
                 if nx<0 or nx>=m or ny<0 or ny>=n: continue
                 if rooms[nx][ny] == EMPTY:
+                    rooms[nx][ny] = d + 1
                     gates.append((d+1, nx, ny))
         
