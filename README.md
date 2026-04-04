@@ -178,6 +178,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0772-construct-quad-tree](https://github.com/qxl0/Leetcode-p2/tree/master/0772-construct-quad-tree) |
 | [1325-delete-leaves-with-a-given-value](https://github.com/qxl0/Leetcode-p2/tree/master/1325-delete-leaves-with-a-given-value) |
 | [1653-number-of-good-leaf-nodes-pairs](https://github.com/qxl0/Leetcode-p2/tree/master/1653-number-of-good-leaf-nodes-pairs) |
+| [2096-step-by-step-directions-from-a-binary-tree-node-to-another](https://github.com/qxl0/Leetcode-p2/tree/master/2096-step-by-step-directions-from-a-binary-tree-node-to-another) |
 ## Depth-First Search
 |  |
 | ------- |
@@ -197,6 +198,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0803-cheapest-flights-within-k-stops](https://github.com/qxl0/Leetcode-p2/tree/master/0803-cheapest-flights-within-k-stops) |
 | [1325-delete-leaves-with-a-given-value](https://github.com/qxl0/Leetcode-p2/tree/master/1325-delete-leaves-with-a-given-value) |
 | [1653-number-of-good-leaf-nodes-pairs](https://github.com/qxl0/Leetcode-p2/tree/master/1653-number-of-good-leaf-nodes-pairs) |
+| [2096-step-by-step-directions-from-a-binary-tree-node-to-another](https://github.com/qxl0/Leetcode-p2/tree/master/2096-step-by-step-directions-from-a-binary-tree-node-to-another) |
 ## Binary Tree
 |  |
 | ------- |
@@ -214,6 +216,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0572-subtree-of-another-tree](https://github.com/qxl0/Leetcode-p2/tree/master/0572-subtree-of-another-tree) |
 | [1325-delete-leaves-with-a-given-value](https://github.com/qxl0/Leetcode-p2/tree/master/1325-delete-leaves-with-a-given-value) |
 | [1653-number-of-good-leaf-nodes-pairs](https://github.com/qxl0/Leetcode-p2/tree/master/1653-number-of-good-leaf-nodes-pairs) |
+| [2096-step-by-step-directions-from-a-binary-tree-node-to-another](https://github.com/qxl0/Leetcode-p2/tree/master/2096-step-by-step-directions-from-a-binary-tree-node-to-another) |
 ## Matrix
 |  |
 | ------- |
@@ -312,6 +315,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1405-longest-happy-string](https://github.com/qxl0/Leetcode-p2/tree/master/1405-longest-happy-string) |
 | [1756-minimum-deletions-to-make-string-balanced](https://github.com/qxl0/Leetcode-p2/tree/master/1756-minimum-deletions-to-make-string-balanced) |
 | [1960-maximum-product-of-the-length-of-two-palindromic-substrings](https://github.com/qxl0/Leetcode-p2/tree/master/1960-maximum-product-of-the-length-of-two-palindromic-substrings) |
+| [2096-step-by-step-directions-from-a-binary-tree-node-to-another](https://github.com/qxl0/Leetcode-p2/tree/master/2096-step-by-step-directions-from-a-binary-tree-node-to-another) |
 | [3479-count-the-number-of-substrings-with-dominant-ones](https://github.com/qxl0/Leetcode-p2/tree/master/3479-count-the-number-of-substrings-with-dominant-ones) |
 | [3546-count-substrings-that-satisfy-k-constraint-ii](https://github.com/qxl0/Leetcode-p2/tree/master/3546-count-substrings-that-satisfy-k-constraint-ii) |
 | [3684-substring-matching-pattern](https://github.com/qxl0/Leetcode-p2/tree/master/3684-substring-matching-pattern) |
