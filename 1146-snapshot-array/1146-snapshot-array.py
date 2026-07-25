@@ -1,28 +1,26 @@
 class SnapshotArray:
 
     def __init__(self, length: int):
-        self.n = length
-        self.vals = [0]*self.n
-        self.snaps = [[(-1,0)] for _ in range(self.n)]
+        self.n = length        
+        self.snaps = [[[-1,0]] for _ in range(self.n)]
         self.snapId = 0
-        self.changed = set()
+        
 
     def set(self, index: int, val: int) -> None:
-        # set 
-        self.vals[index] = val
-        self.changed.add(index)
+        # set val at index to val
+        last = self.snaps[index][-1]
+        if last[0] == self.snapId:
+            last[1] = val
+        else:
+            self.snaps[index].append([self.snapId, val])        
 
     def snap(self) -> int:
-        # take snapshot
-        for i in self.changed:
-            self.snaps[i].append((self.snapId, self.vals[i]))
         self.snapId += 1
-        self.changed.clear()
         return self.snapId - 1
 
     def get(self, index: int, snap_id: int) -> int:
         # get 
-        pos = bisect_right(self.snaps[index], (snap_id, inf))
+        pos = bisect_right(self.snaps[index], [snap_id, inf])
         s_i, s_v = self.snaps[index][pos-1]
         return s_v
 
