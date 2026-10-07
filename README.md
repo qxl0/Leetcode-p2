@@ -98,6 +98,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3941-number-of-integers-with-popcount-depth-equal-to-k-ii](https://github.com/qxl0/Leetcode-p2/tree/master/3941-number-of-integers-with-popcount-depth-equal-to-k-ii) |
 | [3973-flip-square-submatrix-vertically](https://github.com/qxl0/Leetcode-p2/tree/master/3973-flip-square-submatrix-vertically) |
 | [4007-maximum-total-subarray-value-ii](https://github.com/qxl0/Leetcode-p2/tree/master/4007-maximum-total-subarray-value-ii) |
+| [4059-lexicographically-largest-power-array](https://github.com/qxl0/Leetcode-p2/tree/master/4059-lexicographically-largest-power-array) |
 ## Dynamic Programming
 |  |
 | ------- |
@@ -144,6 +145,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3500-minimum-cost-for-cutting-cake-ii](https://github.com/qxl0/Leetcode-p2/tree/master/3500-minimum-cost-for-cutting-cake-ii) |
 | [3528-reach-end-of-array-with-max-score](https://github.com/qxl0/Leetcode-p2/tree/master/3528-reach-end-of-array-with-max-score) |
 | [4007-maximum-total-subarray-value-ii](https://github.com/qxl0/Leetcode-p2/tree/master/4007-maximum-total-subarray-value-ii) |
+| [4059-lexicographically-largest-power-array](https://github.com/qxl0/Leetcode-p2/tree/master/4059-lexicographically-largest-power-array) |
 ## Sorting
 |  |
 | ------- |
@@ -462,6 +464,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3611-construct-the-minimum-bitwise-array-ii](https://github.com/qxl0/Leetcode-p2/tree/master/3611-construct-the-minimum-bitwise-array-ii) |
 | [3676-smallest-number-with-all-set-bits](https://github.com/qxl0/Leetcode-p2/tree/master/3676-smallest-number-with-all-set-bits) |
 | [3930-longest-palindromic-path-in-graph](https://github.com/qxl0/Leetcode-p2/tree/master/3930-longest-palindromic-path-in-graph) |
+| [4059-lexicographically-largest-power-array](https://github.com/qxl0/Leetcode-p2/tree/master/4059-lexicographically-largest-power-array) |
 ## Breadth-First Search
 |  |
 | ------- |
