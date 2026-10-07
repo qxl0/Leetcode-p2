@@ -1,4 +1,4 @@
-<h2><a href="https://leetcode.com/problems/lexicographically-largest-power-array">4059. Lexicographically Largest Power Array</a></h2><h3>Hard</h3><hr><p>You are given an integer array <code>nums</code> of length <code>n</code>. You may rearrange its elements to form any <span data-keyword="permutation-array">permutation</span> <code>perm</code>.</p>
+<h2><a href="https://leetcode.com/problems/lexicographically-largest-power-array">4028. Lexicographically Largest Power Array</a></h2><h3>Hard</h3><hr><p>You are given an integer array <code>nums</code> of length <code>n</code>. You may rearrange its elements to form any <span data-keyword="permutation-array">permutation</span> <code>perm</code>.</p>
 
 <p>Define an array <code>power</code> of length 15. For each <code>0 &lt;= i &lt; 15</code>, <code>power[i]</code> is the largest integer <code>j</code>, where <code>0 &lt;= j &lt;= n</code>, such that the first <code>j</code> elements of <code>perm</code> all have the <code>(14 - i)<sup>th</sup></code> bit <span data-keyword="set-bit">set</span>.</p>
 
